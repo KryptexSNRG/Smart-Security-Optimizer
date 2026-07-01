@@ -1,0 +1,501 @@
+login_id,user_id,timestamp,login_hour,day_of_week,country,city,device_type,browser,ip_address,failed_attempts,mfa_used,mfa_type,new_device,foreign_login,unusual_hour,impossible_travel,suspicious_ip,login_success,attack_type,is_suspicious
+L000001,U061,2026-07-30 01:54:00,1,Thursday,Germany,Munich,Tablet,Safari,120.106.17.183,5,True,Authenticator App,False,False,True,False,False,True,Brute Force,1
+L000002,U017,2026-07-04 01:34:00,1,Saturday,Canada,Toronto,Laptop,Safari,113.127.243.177,6,False,None,False,False,True,False,False,True,Brute Force,1
+L000003,U085,2026-07-04 18:42:00,18,Saturday,United Kingdom,London,Tablet,Safari,116.217.123.148,0,False,None,False,False,False,False,False,True,Normal,0
+L000004,U086,2026-07-29 07:32:00,7,Wednesday,Germany,Munich,Mobile,Firefox,73.104.131.52,5,False,None,False,False,False,False,False,True,Brute Force,1
+L000005,U095,2026-07-18 02:33:00,2,Saturday,United States,Edison,Desktop,Chrome,127.76.251.228,0,True,None,False,False,True,False,False,True,Normal,0
+L000006,U021,2026-07-01 03:52:00,3,Wednesday,India,Delhi,Desktop,Chrome,130.56.107.157,0,False,None,True,False,True,False,False,True,New Device Login,1
+L000007,U097,2026-07-14 18:03:00,18,Tuesday,United Kingdom,Manchester,Mobile,Edge,36.121.146.253,2,False,None,False,False,False,False,False,True,Normal,0
+L000008,U079,2026-07-25 12:40:00,12,Saturday,Germany,Munich,Laptop,Firefox,98.75.224.87,0,False,None,True,False,False,False,False,True,New Device Login,1
+L000009,U060,2026-07-27 09:32:00,9,Monday,India,Delhi,Tablet,Edge,114.149.220.17,1,False,None,False,False,False,False,False,True,Normal,0
+L000010,U097,2026-07-06 20:32:00,20,Monday,Brazil,Rio de Janeiro,Mobile,Edge,107.107.229.49,0,True,Authenticator App,True,False,False,False,False,True,Normal,0
+L000011,U078,2026-07-07 11:41:00,11,Tuesday,Canada,Toronto,Desktop,Edge,115.160.167.13,0,True,Email Code,True,False,False,False,False,False,Normal,0
+L000012,U073,2026-07-08 18:04:00,18,Wednesday,Germany,Berlin,Mobile,Edge,175.236.35.186,0,False,None,True,False,False,False,True,True,Suspicious IP Login,1
+L000013,U044,2026-07-21 12:14:00,12,Tuesday,United Kingdom,Manchester,Desktop,Safari,132.232.188.74,0,True,Email Code,False,True,False,False,False,True,Normal,0
+L000014,U064,2026-07-18 23:03:00,23,Saturday,Brazil,São Paulo,Mobile,Safari,192.6.64.76,0,False,None,False,False,False,False,False,True,Normal,0
+L000015,U019,2026-07-07 23:44:00,23,Tuesday,United Kingdom,Manchester,Mobile,Chrome,120.215.180.121,2,True,None,False,False,False,False,False,False,Normal,0
+L000016,U080,2026-07-20 05:38:00,5,Monday,Brazil,São Paulo,Tablet,Firefox,121.90.98.125,1,True,SMS,False,False,False,False,False,True,Normal,0
+L000017,U038,2026-07-28 05:49:00,5,Tuesday,United Kingdom,London,Laptop,Safari,100.132.125.194,0,False,None,False,False,False,False,False,True,Normal,0
+L000018,U034,2026-07-13 16:55:00,16,Monday,United States,Edison,Tablet,Chrome,137.55.84.249,1,True,SMS,False,False,False,False,False,True,Normal,0
+L000019,U079,2026-07-13 14:00:00,14,Monday,United States,Edison,Laptop,Safari,52.197.233.92,0,False,None,False,False,False,False,False,True,Normal,0
+L000020,U095,2026-07-14 14:10:00,14,Tuesday,Brazil,Rio de Janeiro,Desktop,Edge,168.123.163.208,0,False,None,False,False,False,False,False,False,Normal,0
+L000021,U058,2026-07-06 19:27:00,19,Monday,United Kingdom,London,Desktop,Edge,170.73.245.159,0,False,None,True,False,False,False,True,True,Suspicious IP Login,1
+L000022,U053,2026-07-15 02:47:00,2,Wednesday,Brazil,Rio de Janeiro,Desktop,Safari,148.233.167.69,2,False,None,False,False,True,False,False,True,Normal,0
+L000023,U058,2026-07-29 00:40:00,0,Wednesday,United Kingdom,Manchester,Mobile,Chrome,106.230.0.31,1,False,None,False,False,True,False,False,True,Normal,0
+L000024,U017,2026-07-01 06:52:00,6,Wednesday,Germany,Munich,Laptop,Chrome,184.188.191.88,0,False,None,False,False,False,False,False,True,Normal,0
+L000025,U014,2026-07-25 08:52:00,8,Saturday,Germany,Munich,Desktop,Firefox,74.62.107.254,0,True,Email Code,False,False,False,False,False,True,Normal,0
+L000026,U016,2026-07-21 15:36:00,15,Tuesday,Germany,Berlin,Mobile,Safari,168.149.254.44,0,True,SMS,False,False,False,False,False,True,Normal,0
+L000027,U053,2026-07-05 09:14:00,9,Sunday,Canada,Toronto,Laptop,Safari,119.190.26.4,2,False,None,False,False,False,False,False,True,Normal,0
+L000028,U086,2026-07-31 05:48:00,5,Friday,United Kingdom,Manchester,Desktop,Safari,135.243.117.151,0,False,None,False,False,False,True,True,True,Suspicious IP Login,1
+L000029,U089,2026-07-26 03:31:00,3,Sunday,India,Bangalore,Laptop,Edge,169.76.165.162,1,True,Authenticator App,True,False,True,False,False,True,Normal,0
+L000030,U033,2026-07-24 09:27:00,9,Friday,United Kingdom,Manchester,Mobile,Safari,33.205.237.244,1,False,None,False,False,False,False,False,True,Normal,0
+L000031,U086,2026-07-21 15:16:00,15,Tuesday,Brazil,Rio de Janeiro,Laptop,Edge,206.153.67.139,0,True,Authenticator App,False,False,False,False,True,True,Suspicious IP Login,1
+L000032,U041,2026-07-25 18:10:00,18,Saturday,Germany,Berlin,Desktop,Safari,109.156.97.122,0,False,None,True,False,False,False,False,True,New Device Login,1
+L000033,U018,2026-07-19 08:09:00,8,Sunday,India,Mumbai,Desktop,Firefox,72.221.21.237,0,True,None,True,True,False,False,False,True,Normal,0
+L000034,U047,2026-07-26 10:32:00,10,Sunday,Germany,Berlin,Desktop,Chrome,179.32.92.96,0,False,None,False,False,False,False,False,True,Normal,0
+L000035,U089,2026-07-08 16:49:00,16,Wednesday,Brazil,São Paulo,Tablet,Safari,113.58.46.108,1,False,None,True,False,False,False,False,True,New Device Login,1
+L000036,U097,2026-07-16 04:10:00,4,Thursday,United States,San Francisco,Desktop,Edge,115.70.13.148,0,False,None,False,True,True,False,False,True,Normal,0
+L000037,U014,2026-07-29 17:29:00,17,Wednesday,Canada,Vancouver,Tablet,Edge,90.8.19.88,1,False,None,False,False,False,False,False,False,Normal,0
+L000038,U011,2026-07-02 07:01:00,7,Thursday,Germany,Munich,Tablet,Firefox,168.191.202.241,1,True,SMS,True,True,False,False,False,True,Normal,0
+L000039,U016,2026-07-29 08:31:00,8,Wednesday,Germany,Munich,Tablet,Chrome,66.43.58.143,1,True,SMS,True,True,False,False,False,False,Normal,0
+L000040,U019,2026-07-31 01:24:00,1,Friday,Canada,Vancouver,Desktop,Chrome,130.186.0.90,0,True,SMS,False,False,True,False,False,True,Normal,0
+L000041,U013,2026-07-13 10:13:00,10,Monday,United States,New York,Laptop,Chrome,49.190.156.24,0,False,None,False,True,False,False,False,True,Normal,0
+L000042,U097,2026-07-21 16:41:00,16,Tuesday,Germany,Berlin,Laptop,Safari,104.198.97.131,1,True,SMS,False,False,False,False,False,True,Normal,0
+L000043,U042,2026-07-09 22:47:00,22,Thursday,Brazil,São Paulo,Desktop,Edge,173.247.224.33,1,False,None,False,True,False,False,False,True,Normal,0
+L000044,U065,2026-07-11 00:16:00,0,Saturday,Germany,Berlin,Tablet,Chrome,199.78.72.17,0,True,SMS,False,False,True,True,False,False,Impossible Travel,1
+L000045,U091,2026-07-27 19:40:00,19,Monday,United States,Chicago,Laptop,Chrome,190.254.85.157,0,True,Email Code,True,False,False,False,False,True,Normal,0
+L000046,U077,2026-07-20 10:18:00,10,Monday,United Kingdom,Manchester,Mobile,Firefox,39.199.178.183,7,True,None,True,False,False,False,False,True,Brute Force,1
+L000047,U078,2026-07-08 06:09:00,6,Wednesday,Canada,Vancouver,Desktop,Edge,34.90.116.112,0,False,None,False,False,False,False,False,True,Normal,0
+L000048,U022,2026-07-10 09:27:00,9,Friday,Canada,Vancouver,Mobile,Chrome,177.166.47.172,1,False,None,False,False,False,False,True,True,Suspicious IP Login,1
+L000049,U002,2026-07-28 23:40:00,23,Tuesday,Brazil,São Paulo,Tablet,Edge,213.191.23.58,0,False,None,False,False,False,False,False,False,Normal,0
+L000050,U036,2026-07-16 14:49:00,14,Thursday,United States,San Francisco,Mobile,Edge,25.39.27.59,2,True,None,False,False,False,False,False,True,Normal,0
+L000051,U039,2026-07-20 23:31:00,23,Monday,United Kingdom,Manchester,Mobile,Chrome,24.169.187.75,1,False,None,False,False,False,False,False,True,Normal,0
+L000052,U021,2026-07-17 18:03:00,18,Friday,Brazil,Rio de Janeiro,Laptop,Edge,29.46.199.32,1,True,Email Code,False,False,False,False,False,True,Normal,0
+L000053,U073,2026-07-24 21:02:00,21,Friday,Canada,Toronto,Laptop,Chrome,149.233.127.172,2,False,None,False,False,False,False,True,True,Suspicious IP Login,1
+L000054,U048,2026-07-25 20:01:00,20,Saturday,Germany,Munich,Desktop,Safari,48.100.163.50,0,False,None,True,True,False,False,False,True,New Device Login,1
+L000055,U058,2026-07-23 12:19:00,12,Thursday,Germany,Berlin,Desktop,Safari,178.27.54.126,0,False,None,True,False,False,False,False,True,New Device Login,1
+L000056,U017,2026-07-30 00:24:00,0,Thursday,United States,Chicago,Laptop,Edge,51.118.146.36,1,False,None,False,True,True,False,True,True,Suspicious IP Login,1
+L000057,U048,2026-07-14 05:56:00,5,Tuesday,Germany,Berlin,Laptop,Safari,123.81.168.191,0,True,Email Code,False,True,False,False,False,True,Normal,0
+L000058,U076,2026-07-30 05:26:00,5,Thursday,Brazil,São Paulo,Desktop,Safari,217.141.200.186,0,True,Email Code,False,False,False,False,False,False,Normal,0
+L000059,U094,2026-07-24 08:14:00,8,Friday,Germany,Munich,Desktop,Chrome,181.57.108.6,2,True,SMS,False,False,False,False,False,True,Normal,0
+L000060,U024,2026-07-09 13:41:00,13,Thursday,Brazil,São Paulo,Mobile,Firefox,191.82.129.52,0,False,None,True,False,False,False,False,False,New Device Login,1
+L000061,U038,2026-07-07 08:59:00,8,Tuesday,Brazil,Rio de Janeiro,Mobile,Firefox,10.166.121.105,2,True,None,False,False,False,False,False,True,Normal,0
+L000062,U044,2026-07-09 19:12:00,19,Thursday,India,Bangalore,Desktop,Safari,14.39.111.174,0,True,Email Code,True,False,False,False,True,True,Suspicious IP Login,1
+L000063,U050,2026-07-28 22:42:00,22,Tuesday,Canada,Toronto,Mobile,Firefox,201.96.53.240,2,False,None,False,False,False,False,False,True,Normal,0
+L000064,U099,2026-07-05 01:45:00,1,Sunday,United States,Edison,Tablet,Safari,195.97.11.48,0,True,SMS,False,False,True,False,False,True,Normal,0
+L000065,U086,2026-07-01 04:38:00,4,Wednesday,United States,San Francisco,Laptop,Chrome,57.43.110.33,0,False,None,False,False,True,False,False,True,Normal,0
+L000066,U007,2026-07-14 19:48:00,19,Tuesday,Brazil,São Paulo,Desktop,Chrome,37.5.88.21,1,False,None,True,False,False,False,False,False,New Device Login,1
+L000067,U023,2026-07-27 21:10:00,21,Monday,Canada,Toronto,Desktop,Edge,48.212.118.133,0,True,Email Code,True,False,False,False,False,True,Normal,0
+L000068,U073,2026-07-19 05:14:00,5,Sunday,Germany,Munich,Mobile,Chrome,15.138.233.92,2,True,SMS,False,False,False,False,False,True,Normal,0
+L000069,U028,2026-07-25 22:14:00,22,Saturday,Germany,Munich,Mobile,Edge,63.69.36.198,0,True,Authenticator App,False,True,False,False,False,True,Normal,0
+L000070,U043,2026-07-08 15:57:00,15,Wednesday,India,Delhi,Mobile,Chrome,136.245.78.199,7,True,Email Code,False,False,False,True,True,False,Brute Force,1
+L000071,U071,2026-07-22 07:42:00,7,Wednesday,Canada,Vancouver,Tablet,Chrome,155.197.184.14,1,False,None,False,False,False,False,False,True,Normal,0
+L000072,U065,2026-07-09 20:02:00,20,Thursday,United States,Edison,Laptop,Edge,215.192.198.176,1,False,None,False,False,False,False,False,True,Normal,0
+L000073,U028,2026-07-23 00:12:00,0,Thursday,Germany,Berlin,Laptop,Firefox,154.169.186.96,1,False,None,False,True,True,False,False,True,Normal,0
+L000074,U076,2026-07-26 22:44:00,22,Sunday,United States,Chicago,Tablet,Chrome,199.108.177.7,1,False,None,True,False,False,False,False,True,New Device Login,1
+L000075,U045,2026-07-13 21:40:00,21,Monday,United Kingdom,London,Laptop,Edge,103.75.155.83,2,False,None,False,False,False,False,True,True,Suspicious IP Login,1
+L000076,U085,2026-07-25 13:37:00,13,Saturday,Germany,Munich,Tablet,Chrome,172.61.45.22,0,False,None,True,False,False,False,False,True,New Device Login,1
+L000077,U078,2026-07-06 06:03:00,6,Monday,United Kingdom,Manchester,Desktop,Chrome,18.84.17.14,0,True,Email Code,True,True,False,False,False,True,Normal,0
+L000078,U011,2026-07-05 22:01:00,22,Sunday,United Kingdom,Manchester,Desktop,Firefox,32.64.211.77,0,True,SMS,False,False,False,False,False,True,Normal,0
+L000079,U013,2026-07-26 20:13:00,20,Sunday,Canada,Vancouver,Mobile,Safari,176.156.148.90,4,True,None,False,False,False,False,False,True,Normal,0
+L000080,U091,2026-07-13 05:59:00,5,Monday,United States,Edison,Mobile,Safari,29.73.157.228,0,True,Authenticator App,False,False,False,False,False,True,Normal,0
+L000081,U050,2026-07-10 20:11:00,20,Friday,Canada,Vancouver,Tablet,Chrome,141.54.7.238,0,False,None,False,False,False,False,False,True,Normal,0
+L000082,U046,2026-07-16 10:36:00,10,Thursday,Canada,Vancouver,Laptop,Safari,195.126.220.197,1,False,None,False,False,False,False,False,True,Normal,0
+L000083,U075,2026-07-05 08:51:00,8,Sunday,India,Bangalore,Desktop,Edge,210.176.48.95,4,False,None,False,False,False,False,False,True,Normal,0
+L000084,U065,2026-07-06 22:15:00,22,Monday,Brazil,Rio de Janeiro,Mobile,Edge,101.36.35.248,1,False,None,True,False,False,False,False,True,New Device Login,1
+L000085,U017,2026-07-26 04:45:00,4,Sunday,United States,San Francisco,Laptop,Firefox,24.47.155.215,0,False,None,False,True,True,False,False,True,Normal,0
+L000086,U073,2026-07-22 22:39:00,22,Wednesday,Germany,Munich,Tablet,Safari,126.215.10.52,2,False,None,False,False,False,False,False,False,Normal,0
+L000087,U070,2026-07-07 03:42:00,3,Tuesday,Germany,Berlin,Laptop,Safari,212.48.16.154,1,True,SMS,False,False,True,False,False,True,Normal,0
+L000088,U067,2026-07-06 09:10:00,9,Monday,Brazil,São Paulo,Desktop,Chrome,65.230.61.109,1,True,Authenticator App,False,False,False,False,False,True,Normal,0
+L000089,U016,2026-07-28 01:40:00,1,Tuesday,Germany,Munich,Laptop,Edge,103.40.148.106,0,True,Email Code,False,False,True,False,False,True,Normal,0
+L000090,U051,2026-07-31 08:52:00,8,Friday,Germany,Munich,Desktop,Chrome,91.12.119.34,1,False,None,False,False,False,True,False,True,Impossible Travel,1
+L000091,U082,2026-07-23 03:45:00,3,Thursday,India,Delhi,Laptop,Edge,148.61.159.74,0,True,None,False,False,True,False,False,True,Normal,0
+L000092,U032,2026-07-31 18:17:00,18,Friday,United Kingdom,Manchester,Tablet,Safari,211.117.150.26,4,False,None,False,False,False,False,False,False,Normal,0
+L000093,U053,2026-07-22 16:09:00,16,Wednesday,Germany,Munich,Laptop,Safari,101.195.31.100,0,True,Authenticator App,False,True,False,False,False,False,Normal,0
+L000094,U061,2026-07-27 10:08:00,10,Monday,Brazil,Rio de Janeiro,Laptop,Firefox,54.190.125.71,1,True,None,False,False,False,False,False,True,Normal,0
+L000095,U028,2026-07-28 21:04:00,21,Tuesday,Canada,Vancouver,Tablet,Chrome,97.216.82.197,0,True,SMS,False,False,False,True,False,True,Impossible Travel,1
+L000096,U063,2026-07-14 03:38:00,3,Tuesday,United Kingdom,London,Laptop,Firefox,55.21.113.246,4,True,Email Code,False,False,True,False,False,True,Normal,0
+L000097,U023,2026-07-19 08:03:00,8,Sunday,Germany,Berlin,Tablet,Chrome,49.47.58.157,3,False,None,False,False,False,False,False,True,Normal,0
+L000098,U069,2026-07-28 02:33:00,2,Tuesday,Germany,Munich,Laptop,Chrome,54.125.7.251,6,False,None,True,False,True,False,False,True,Brute Force,1
+L000099,U012,2026-07-06 16:56:00,16,Monday,India,Delhi,Mobile,Firefox,44.12.221.174,0,False,None,False,False,False,False,False,False,Normal,0
+L000100,U056,2026-07-10 06:22:00,6,Friday,Canada,Toronto,Laptop,Safari,175.142.191.17,1,True,Authenticator App,False,False,False,False,True,True,Suspicious IP Login,1
+L000101,U072,2026-07-16 07:01:00,7,Thursday,India,Mumbai,Laptop,Firefox,36.94.29.227,0,False,None,False,False,False,False,False,False,Normal,0
+L000102,U057,2026-07-23 09:27:00,9,Thursday,United Kingdom,London,Mobile,Edge,34.157.125.206,0,True,None,True,False,False,False,False,True,Normal,0
+L000103,U031,2026-07-29 06:02:00,6,Wednesday,Germany,Berlin,Tablet,Chrome,17.13.167.132,2,False,None,False,False,False,False,False,True,Normal,0
+L000104,U088,2026-07-04 14:10:00,14,Saturday,Brazil,São Paulo,Desktop,Edge,40.15.171.96,0,False,None,False,False,False,False,False,True,Normal,0
+L000105,U093,2026-07-28 11:29:00,11,Tuesday,Canada,Toronto,Laptop,Firefox,132.175.132.160,0,False,None,False,False,False,False,False,True,Normal,0
+L000106,U048,2026-07-09 11:15:00,11,Thursday,United Kingdom,Manchester,Mobile,Edge,57.63.134.151,0,False,None,False,False,False,False,False,False,Normal,0
+L000107,U026,2026-07-08 19:43:00,19,Wednesday,United States,San Francisco,Desktop,Edge,33.61.191.80,1,True,None,True,True,False,False,False,False,Normal,0
+L000108,U076,2026-07-22 09:55:00,9,Wednesday,Canada,Toronto,Desktop,Edge,140.129.106.231,0,True,Email Code,False,False,False,False,False,True,Normal,0
+L000109,U092,2026-07-06 15:11:00,15,Monday,Canada,Vancouver,Laptop,Safari,80.125.151.186,0,True,SMS,False,False,False,False,False,True,Normal,0
+L000110,U056,2026-07-02 04:48:00,4,Thursday,Germany,Munich,Laptop,Chrome,85.24.69.162,1,True,Email Code,True,False,True,False,False,True,Normal,0
+L000111,U017,2026-07-28 05:00:00,5,Tuesday,India,Mumbai,Desktop,Firefox,36.173.61.152,2,True,None,False,False,False,False,False,True,Normal,0
+L000112,U011,2026-07-01 12:17:00,12,Wednesday,United States,Edison,Tablet,Chrome,10.197.236.87,2,True,Authenticator App,False,True,False,False,False,True,Normal,0
+L000113,U010,2026-07-18 21:32:00,21,Saturday,United States,Chicago,Laptop,Safari,168.129.40.76,1,False,None,False,False,False,False,False,True,Normal,0
+L000114,U081,2026-07-27 05:54:00,5,Monday,Canada,Toronto,Laptop,Safari,220.111.144.46,3,False,None,False,False,False,False,False,True,Normal,0
+L000115,U047,2026-07-02 23:22:00,23,Thursday,Brazil,Rio de Janeiro,Laptop,Safari,166.152.52.72,0,False,None,False,False,False,False,False,True,Normal,0
+L000116,U084,2026-07-01 04:24:00,4,Wednesday,Canada,Toronto,Laptop,Chrome,119.123.27.68,0,True,Authenticator App,False,False,True,False,False,True,Normal,0
+L000117,U065,2026-07-01 16:05:00,16,Wednesday,India,Mumbai,Laptop,Chrome,123.15.113.224,2,False,None,False,True,False,False,False,True,Normal,0
+L000118,U100,2026-07-18 16:49:00,16,Saturday,India,Delhi,Tablet,Safari,153.57.175.101,0,False,None,True,True,False,True,False,False,Impossible Travel,1
+L000119,U066,2026-07-16 14:10:00,14,Thursday,United Kingdom,London,Desktop,Edge,152.144.115.222,0,True,Email Code,False,False,False,False,False,True,Normal,0
+L000120,U037,2026-07-31 08:50:00,8,Friday,Germany,Berlin,Laptop,Safari,72.60.152.21,0,True,SMS,False,False,False,False,False,True,Normal,0
+L000121,U075,2026-07-07 20:06:00,20,Tuesday,Brazil,São Paulo,Mobile,Edge,178.168.38.169,1,True,None,False,False,False,False,False,True,Normal,0
+L000122,U047,2026-07-03 20:42:00,20,Friday,Canada,Vancouver,Desktop,Chrome,103.115.167.226,0,True,None,True,False,False,False,False,True,Normal,0
+L000123,U089,2026-07-01 03:22:00,3,Wednesday,India,Mumbai,Tablet,Chrome,96.184.217.200,1,False,None,False,False,True,False,False,False,Normal,0
+L000124,U021,2026-07-11 13:43:00,13,Saturday,United Kingdom,Manchester,Laptop,Firefox,96.30.237.165,3,True,None,False,True,False,False,False,True,Foreign Login,1
+L000125,U034,2026-07-23 06:34:00,6,Thursday,India,Delhi,Desktop,Chrome,31.117.215.191,1,False,None,False,False,False,False,False,True,Normal,0
+L000126,U055,2026-07-02 23:35:00,23,Thursday,United Kingdom,Manchester,Desktop,Chrome,196.236.251.28,2,True,Email Code,True,True,False,False,False,True,Normal,0
+L000127,U099,2026-07-13 10:42:00,10,Monday,United States,San Francisco,Desktop,Safari,85.138.245.9,1,False,None,False,False,False,False,False,True,Normal,0
+L000128,U083,2026-07-22 01:09:00,1,Wednesday,India,Bangalore,Mobile,Chrome,14.224.4.158,1,True,SMS,False,False,True,False,False,False,Normal,0
+L000129,U042,2026-07-14 12:47:00,12,Tuesday,United Kingdom,Manchester,Laptop,Chrome,115.118.152.193,2,True,Email Code,False,False,False,False,False,True,Normal,0
+L000130,U083,2026-07-12 17:03:00,17,Sunday,Canada,Vancouver,Tablet,Firefox,58.69.0.89,0,True,SMS,True,False,False,False,False,True,Normal,0
+L000131,U050,2026-07-06 09:36:00,9,Monday,United States,San Francisco,Tablet,Chrome,199.233.195.193,0,True,Email Code,False,False,False,False,False,True,Normal,0
+L000132,U042,2026-07-26 01:43:00,1,Sunday,Germany,Berlin,Laptop,Safari,64.100.179.206,0,True,SMS,False,False,True,False,False,True,Normal,0
+L000133,U076,2026-07-21 22:06:00,22,Tuesday,Canada,Vancouver,Desktop,Chrome,179.4.235.56,0,False,None,True,False,False,True,False,False,Impossible Travel,1
+L000134,U100,2026-07-07 12:55:00,12,Tuesday,India,Delhi,Mobile,Safari,204.67.191.74,6,False,None,True,False,False,False,False,True,Brute Force,1
+L000135,U098,2026-07-15 14:57:00,14,Wednesday,United States,New York,Tablet,Safari,56.123.61.194,4,True,None,False,True,False,False,False,True,Foreign Login,1
+L000136,U075,2026-07-29 19:28:00,19,Wednesday,Canada,Vancouver,Desktop,Edge,25.194.8.59,1,False,None,False,False,False,False,False,True,Normal,0
+L000137,U086,2026-07-17 17:39:00,17,Friday,Canada,Toronto,Mobile,Firefox,170.30.124.128,1,False,None,False,False,False,False,False,True,Normal,0
+L000138,U063,2026-07-16 20:36:00,20,Thursday,Brazil,Rio de Janeiro,Desktop,Safari,68.90.75.26,0,False,None,False,False,False,False,False,True,Normal,0
+L000139,U051,2026-07-24 18:20:00,18,Friday,Brazil,Rio de Janeiro,Desktop,Safari,193.108.109.116,4,False,None,False,False,False,False,False,False,Normal,0
+L000140,U023,2026-07-31 16:12:00,16,Friday,Canada,Toronto,Mobile,Edge,221.16.46.115,0,False,None,False,True,False,False,False,False,Normal,0
+L000141,U042,2026-07-10 12:06:00,12,Friday,United States,Chicago,Mobile,Chrome,67.229.140.247,0,False,None,False,False,False,False,False,True,Normal,0
+L000142,U097,2026-07-14 01:32:00,1,Tuesday,Brazil,Rio de Janeiro,Mobile,Firefox,116.244.47.198,0,False,None,False,False,True,False,False,True,Normal,0
+L000143,U096,2026-07-04 22:13:00,22,Saturday,Canada,Vancouver,Mobile,Firefox,170.211.93.14,1,False,None,False,False,False,False,False,True,Normal,0
+L000144,U095,2026-07-20 17:15:00,17,Monday,Germany,Berlin,Laptop,Firefox,11.35.194.17,0,True,Authenticator App,True,False,False,False,False,True,Normal,0
+L000145,U013,2026-07-18 02:54:00,2,Saturday,United States,Chicago,Desktop,Firefox,193.155.44.40,5,True,SMS,False,True,True,False,False,False,Brute Force,1
+L000146,U021,2026-07-11 04:07:00,4,Saturday,India,Mumbai,Desktop,Safari,81.72.135.239,1,False,None,False,False,True,False,False,True,Normal,0
+L000147,U073,2026-07-22 19:15:00,19,Wednesday,Brazil,São Paulo,Tablet,Firefox,145.51.36.8,1,False,None,False,False,False,False,False,True,Normal,0
+L000148,U025,2026-07-12 14:39:00,14,Sunday,Canada,Toronto,Desktop,Edge,113.143.138.110,0,False,None,False,False,False,False,False,True,Normal,0
+L000149,U005,2026-07-13 19:54:00,19,Monday,Brazil,Rio de Janeiro,Laptop,Chrome,131.114.88.9,4,True,Authenticator App,False,False,False,False,True,False,Suspicious IP Login,1
+L000150,U026,2026-07-17 03:37:00,3,Friday,Germany,Munich,Mobile,Edge,219.188.35.42,2,False,None,False,False,True,False,False,True,Normal,0
+L000151,U002,2026-07-30 04:16:00,4,Thursday,United States,San Francisco,Laptop,Chrome,210.207.121.142,1,True,Email Code,False,False,True,False,False,True,Normal,0
+L000152,U005,2026-07-04 21:15:00,21,Saturday,United Kingdom,Manchester,Mobile,Safari,157.221.252.192,2,False,None,True,False,False,False,False,True,New Device Login,1
+L000153,U048,2026-07-25 10:07:00,10,Saturday,India,Bangalore,Tablet,Safari,214.185.236.121,1,True,Authenticator App,False,False,False,False,False,False,Normal,0
+L000154,U091,2026-07-11 10:42:00,10,Saturday,Brazil,São Paulo,Mobile,Edge,44.217.144.190,2,True,SMS,False,False,False,False,False,True,Normal,0
+L000155,U081,2026-07-14 06:50:00,6,Tuesday,India,Delhi,Mobile,Safari,123.1.117.202,0,True,Authenticator App,False,False,False,False,False,True,Normal,0
+L000156,U023,2026-07-25 23:39:00,23,Saturday,India,Bangalore,Laptop,Safari,119.114.194.200,2,True,Email Code,True,True,False,False,False,True,Normal,0
+L000157,U050,2026-07-04 19:11:00,19,Saturday,Germany,Munich,Mobile,Firefox,218.236.125.101,0,True,Email Code,False,False,False,False,True,True,Suspicious IP Login,1
+L000158,U027,2026-07-28 01:49:00,1,Tuesday,Germany,Munich,Mobile,Edge,56.84.230.140,6,True,SMS,False,True,True,False,False,False,Brute Force,1
+L000159,U091,2026-07-30 00:37:00,0,Thursday,Canada,Toronto,Tablet,Safari,130.223.138.216,4,False,None,False,False,True,False,False,True,Normal,0
+L000160,U084,2026-07-09 18:06:00,18,Thursday,India,Delhi,Mobile,Edge,158.237.12.164,1,True,SMS,True,False,False,False,False,True,Normal,0
+L000161,U096,2026-07-29 16:08:00,16,Wednesday,Germany,Munich,Mobile,Firefox,74.224.109.38,0,True,Authenticator App,True,False,False,False,False,True,Normal,0
+L000162,U018,2026-07-04 05:15:00,5,Saturday,United States,New York,Tablet,Chrome,174.220.79.118,0,True,SMS,False,False,False,False,False,True,Normal,0
+L000163,U003,2026-07-08 18:09:00,18,Wednesday,Brazil,Rio de Janeiro,Laptop,Safari,216.174.192.111,1,True,None,False,False,False,False,False,True,Normal,0
+L000164,U083,2026-07-14 10:45:00,10,Tuesday,United States,Chicago,Laptop,Safari,105.145.214.81,1,True,None,False,False,False,False,False,False,Normal,0
+L000165,U008,2026-07-27 15:23:00,15,Monday,India,Mumbai,Mobile,Firefox,20.114.61.17,1,True,SMS,False,True,False,False,False,True,Normal,0
+L000166,U031,2026-07-05 14:05:00,14,Sunday,Germany,Berlin,Tablet,Edge,122.98.70.224,0,True,SMS,False,False,False,False,False,True,Normal,0
+L000167,U082,2026-07-10 20:39:00,20,Friday,India,Delhi,Laptop,Safari,185.128.80.22,0,False,None,False,False,False,False,True,True,Suspicious IP Login,1
+L000168,U037,2026-07-29 00:38:00,0,Wednesday,India,Bangalore,Laptop,Chrome,11.135.203.51,0,True,Email Code,False,False,True,False,False,True,Normal,0
+L000169,U019,2026-07-10 23:27:00,23,Friday,United States,New York,Tablet,Chrome,112.17.71.125,1,True,None,False,False,False,False,False,True,Normal,0
+L000170,U070,2026-07-22 01:56:00,1,Wednesday,United States,Edison,Mobile,Edge,73.212.198.153,1,False,None,False,False,True,False,False,True,Normal,0
+L000171,U010,2026-07-06 10:51:00,10,Monday,Canada,Vancouver,Tablet,Chrome,82.151.78.109,0,False,None,False,False,False,False,False,True,Normal,0
+L000172,U016,2026-07-19 03:32:00,3,Sunday,Germany,Munich,Desktop,Edge,222.89.213.54,5,True,SMS,False,False,True,False,False,True,Brute Force,1
+L000173,U042,2026-07-22 22:20:00,22,Wednesday,United States,Chicago,Laptop,Edge,49.39.20.37,1,False,None,False,False,False,False,False,False,Normal,0
+L000174,U021,2026-07-10 00:48:00,0,Friday,Germany,Berlin,Tablet,Firefox,144.185.228.110,1,False,None,False,False,True,False,False,False,Normal,0
+L000175,U088,2026-07-31 07:07:00,7,Friday,Canada,Vancouver,Desktop,Firefox,216.155.98.12,1,True,SMS,False,False,False,False,False,False,Normal,0
+L000176,U061,2026-07-26 22:36:00,22,Sunday,India,Mumbai,Laptop,Edge,213.40.173.12,0,False,None,False,False,False,False,False,True,Normal,0
+L000177,U015,2026-07-28 05:33:00,5,Tuesday,United States,Edison,Tablet,Firefox,51.144.62.58,3,False,None,False,False,False,False,False,True,Normal,0
+L000178,U097,2026-07-07 10:23:00,10,Tuesday,United Kingdom,London,Desktop,Firefox,203.20.38.166,0,False,None,False,False,False,False,False,True,Normal,0
+L000179,U086,2026-07-03 22:06:00,22,Friday,United Kingdom,London,Mobile,Firefox,212.102.105.219,0,True,SMS,False,False,False,False,False,True,Normal,0
+L000180,U069,2026-07-17 15:58:00,15,Friday,Germany,Berlin,Tablet,Chrome,206.110.143.131,0,False,None,True,False,False,True,False,True,Impossible Travel,1
+L000181,U078,2026-07-21 10:19:00,10,Tuesday,United Kingdom,Manchester,Tablet,Edge,215.131.25.164,2,True,None,True,False,False,False,False,False,Normal,0
+L000182,U009,2026-07-05 19:02:00,19,Sunday,Germany,Berlin,Mobile,Edge,215.86.250.101,0,False,None,False,False,False,False,False,True,Normal,0
+L000183,U002,2026-07-20 03:11:00,3,Monday,Brazil,Rio de Janeiro,Mobile,Edge,53.111.253.2,0,False,None,True,True,True,False,False,True,New Device Login,1
+L000184,U099,2026-07-15 22:04:00,22,Wednesday,India,Delhi,Laptop,Firefox,219.184.170.213,2,False,None,False,True,False,False,False,True,Normal,0
+L000185,U058,2026-07-07 06:33:00,6,Tuesday,United States,San Francisco,Tablet,Edge,99.138.52.143,4,True,None,False,True,False,False,False,True,Foreign Login,1
+L000186,U026,2026-07-11 10:36:00,10,Saturday,India,Mumbai,Tablet,Firefox,94.96.61.190,0,False,None,False,False,False,False,False,False,Normal,0
+L000187,U010,2026-07-10 01:22:00,1,Friday,Canada,Vancouver,Desktop,Safari,219.211.200.249,2,False,None,False,False,True,False,False,True,Normal,0
+L000188,U020,2026-07-02 05:19:00,5,Thursday,India,Bangalore,Desktop,Firefox,37.39.217.69,0,True,SMS,False,False,False,False,True,True,Suspicious IP Login,1
+L000189,U079,2026-07-17 09:46:00,9,Friday,United States,New York,Desktop,Edge,59.168.78.109,0,True,None,True,False,False,True,False,False,Impossible Travel,1
+L000190,U034,2026-07-27 16:06:00,16,Monday,Canada,Toronto,Laptop,Safari,34.2.251.147,0,False,None,False,False,False,True,False,True,Impossible Travel,1
+L000191,U091,2026-07-30 10:42:00,10,Thursday,India,Mumbai,Desktop,Chrome,107.171.162.79,0,True,Email Code,False,False,False,False,False,True,Normal,0
+L000192,U033,2026-07-26 05:57:00,5,Sunday,Canada,Toronto,Tablet,Chrome,43.61.127.114,1,False,None,False,False,False,False,False,True,Normal,0
+L000193,U032,2026-07-22 13:20:00,13,Wednesday,India,Delhi,Tablet,Safari,124.65.230.170,3,True,SMS,False,False,False,False,False,True,Normal,0
+L000194,U062,2026-07-13 18:08:00,18,Monday,United Kingdom,London,Mobile,Safari,190.211.39.69,2,True,Email Code,False,False,False,False,True,False,Suspicious IP Login,1
+L000195,U039,2026-07-24 06:06:00,6,Friday,Germany,Munich,Tablet,Edge,205.146.92.184,0,True,None,False,False,False,False,False,True,Normal,0
+L000196,U082,2026-07-03 11:29:00,11,Friday,United States,Chicago,Tablet,Safari,218.87.171.182,3,False,None,False,False,False,False,False,True,Normal,0
+L000197,U095,2026-07-08 12:00:00,12,Wednesday,United Kingdom,London,Tablet,Firefox,65.115.33.214,2,False,None,False,False,False,False,True,True,Suspicious IP Login,1
+L000198,U019,2026-07-22 08:56:00,8,Wednesday,United Kingdom,London,Mobile,Chrome,157.134.88.202,0,True,SMS,False,True,False,False,False,True,Normal,0
+L000199,U090,2026-07-06 14:13:00,14,Monday,Germany,Munich,Mobile,Firefox,209.189.85.147,0,True,Authenticator App,True,True,False,False,False,True,Normal,0
+L000200,U034,2026-07-11 08:46:00,8,Saturday,India,Bangalore,Tablet,Firefox,219.185.208.153,0,False,None,False,False,False,False,False,True,Normal,0
+L000201,U030,2026-07-06 09:58:00,9,Monday,United States,Edison,Laptop,Safari,190.49.231.125,5,False,None,False,False,False,False,False,True,Brute Force,1
+L000202,U009,2026-07-21 16:14:00,16,Tuesday,Brazil,Rio de Janeiro,Tablet,Safari,82.14.9.201,2,False,None,False,False,False,False,False,True,Normal,0
+L000203,U079,2026-07-08 18:59:00,18,Wednesday,Brazil,São Paulo,Desktop,Safari,192.143.245.105,3,False,None,False,True,False,False,True,True,Suspicious IP Login,1
+L000204,U026,2026-07-10 01:21:00,1,Friday,United States,Edison,Desktop,Edge,66.9.97.33,0,False,None,False,False,True,True,False,True,Impossible Travel,1
+L000205,U084,2026-07-12 08:22:00,8,Sunday,Germany,Munich,Laptop,Edge,20.162.225.80,1,False,None,True,False,False,False,False,True,New Device Login,1
+L000206,U080,2026-07-31 18:39:00,18,Friday,Brazil,São Paulo,Mobile,Safari,125.147.60.141,0,True,SMS,False,False,False,False,False,False,Normal,0
+L000207,U013,2026-07-10 01:01:00,1,Friday,Brazil,Rio de Janeiro,Tablet,Firefox,103.243.198.66,4,False,None,True,False,True,False,False,True,New Device Login,1
+L000208,U032,2026-07-17 16:56:00,16,Friday,Canada,Vancouver,Tablet,Safari,139.160.100.180,0,True,Email Code,False,False,False,False,False,True,Normal,0
+L000209,U060,2026-07-21 09:24:00,9,Tuesday,India,Bangalore,Desktop,Firefox,216.152.124.159,1,False,None,False,False,False,False,True,True,Suspicious IP Login,1
+L000210,U069,2026-07-22 05:45:00,5,Wednesday,Canada,Toronto,Tablet,Firefox,36.159.42.59,0,True,Email Code,False,False,False,False,False,True,Normal,0
+L000211,U076,2026-07-06 06:10:00,6,Monday,Canada,Toronto,Desktop,Chrome,105.47.141.81,1,False,None,False,False,False,False,False,True,Normal,0
+L000212,U095,2026-07-01 21:35:00,21,Wednesday,United Kingdom,Manchester,Tablet,Safari,46.216.82.6,1,False,None,True,False,False,False,False,True,New Device Login,1
+L000213,U093,2026-07-12 22:00:00,22,Sunday,United Kingdom,Manchester,Tablet,Chrome,63.244.37.204,1,False,None,False,True,False,False,False,True,Normal,0
+L000214,U056,2026-07-30 07:10:00,7,Thursday,Germany,Munich,Desktop,Edge,32.80.120.101,0,False,None,True,True,False,False,True,True,Suspicious IP Login,1
+L000215,U045,2026-07-13 06:04:00,6,Monday,Brazil,São Paulo,Laptop,Safari,26.146.241.178,0,True,Email Code,False,False,False,False,False,True,Normal,0
+L000216,U015,2026-07-04 02:16:00,2,Saturday,United Kingdom,Manchester,Mobile,Safari,67.57.208.206,0,True,Email Code,False,False,True,False,False,True,Normal,0
+L000217,U002,2026-07-14 19:33:00,19,Tuesday,Germany,Munich,Mobile,Edge,210.204.11.49,0,True,SMS,False,False,False,False,False,True,Normal,0
+L000218,U041,2026-07-09 00:36:00,0,Thursday,United Kingdom,London,Tablet,Edge,26.77.34.116,3,True,SMS,True,False,True,False,False,True,Normal,0
+L000219,U025,2026-07-21 17:21:00,17,Tuesday,Canada,Toronto,Desktop,Firefox,21.52.35.168,0,False,None,True,False,False,False,False,False,New Device Login,1
+L000220,U082,2026-07-12 20:49:00,20,Sunday,United States,New York,Tablet,Chrome,85.187.30.98,1,True,Email Code,False,False,False,False,False,False,Normal,0
+L000221,U096,2026-07-14 22:48:00,22,Tuesday,India,Delhi,Desktop,Edge,59.149.17.144,0,False,None,False,False,False,False,False,True,Normal,0
+L000222,U004,2026-07-14 03:01:00,3,Tuesday,Brazil,Rio de Janeiro,Desktop,Chrome,191.169.53.121,1,True,Authenticator App,True,False,True,False,False,False,Normal,0
+L000223,U084,2026-07-05 17:55:00,17,Sunday,Canada,Toronto,Desktop,Safari,12.192.231.142,0,True,None,False,False,False,False,False,True,Normal,0
+L000224,U001,2026-07-14 06:39:00,6,Tuesday,India,Bangalore,Laptop,Safari,64.102.181.40,4,True,None,False,False,False,False,False,True,Normal,0
+L000225,U017,2026-07-03 22:30:00,22,Friday,United States,Chicago,Desktop,Chrome,213.90.54.193,1,True,Email Code,True,False,False,False,False,True,Normal,0
+L000226,U029,2026-07-30 22:34:00,22,Thursday,United Kingdom,London,Desktop,Edge,149.82.232.107,5,False,None,True,False,False,True,False,True,Brute Force,1
+L000227,U042,2026-07-14 15:25:00,15,Tuesday,India,Bangalore,Desktop,Firefox,219.54.96.124,0,False,None,False,False,False,True,False,True,Impossible Travel,1
+L000228,U018,2026-07-02 04:54:00,4,Thursday,United States,Chicago,Mobile,Chrome,34.162.131.170,6,True,Email Code,False,True,True,False,True,True,Brute Force,1
+L000229,U099,2026-07-10 18:23:00,18,Friday,India,Bangalore,Tablet,Edge,13.57.146.175,0,True,Authenticator App,False,True,False,False,False,True,Normal,0
+L000230,U053,2026-07-07 11:14:00,11,Tuesday,Germany,Munich,Laptop,Chrome,120.245.184.210,0,False,None,False,False,False,False,False,True,Normal,0
+L000231,U038,2026-07-26 09:19:00,9,Sunday,Brazil,Rio de Janeiro,Mobile,Edge,171.174.63.52,7,True,SMS,False,False,False,False,False,False,Brute Force,1
+L000232,U075,2026-07-28 17:06:00,17,Tuesday,India,Mumbai,Laptop,Safari,41.61.172.218,1,False,None,False,False,False,False,True,True,Suspicious IP Login,1
+L000233,U097,2026-07-31 04:02:00,4,Friday,Brazil,Rio de Janeiro,Desktop,Safari,192.211.247.99,0,False,None,False,False,True,False,False,True,Normal,0
+L000234,U072,2026-07-25 03:09:00,3,Saturday,India,Bangalore,Tablet,Chrome,19.219.15.186,1,False,None,False,False,True,False,False,True,Normal,0
+L000235,U055,2026-07-20 11:57:00,11,Monday,India,Bangalore,Laptop,Firefox,211.152.144.221,1,False,None,False,False,False,False,False,False,Normal,0
+L000236,U071,2026-07-17 07:19:00,7,Friday,Germany,Munich,Tablet,Chrome,114.245.231.245,0,False,None,False,False,False,False,False,True,Normal,0
+L000237,U017,2026-07-29 21:01:00,21,Wednesday,Brazil,Rio de Janeiro,Tablet,Safari,56.75.41.101,0,False,None,False,False,False,False,False,True,Normal,0
+L000238,U030,2026-07-03 17:54:00,17,Friday,Canada,Toronto,Desktop,Edge,43.4.3.82,5,False,None,True,False,False,False,False,True,Brute Force,1
+L000239,U062,2026-07-15 16:00:00,16,Wednesday,Brazil,Rio de Janeiro,Tablet,Edge,66.184.99.185,0,True,None,False,False,False,False,True,True,Suspicious IP Login,1
+L000240,U100,2026-07-22 19:10:00,19,Wednesday,United Kingdom,London,Tablet,Safari,94.84.237.149,1,True,SMS,False,False,False,False,False,True,Normal,0
+L000241,U078,2026-07-01 02:51:00,2,Wednesday,United States,Edison,Tablet,Firefox,51.127.195.112,0,True,Authenticator App,False,False,True,False,False,True,Normal,0
+L000242,U021,2026-07-12 14:46:00,14,Sunday,United States,San Francisco,Mobile,Safari,112.115.187.15,0,True,None,False,False,False,False,False,False,Normal,0
+L000243,U007,2026-07-12 12:36:00,12,Sunday,Brazil,São Paulo,Laptop,Edge,149.45.159.174,0,True,SMS,False,True,False,False,False,True,Normal,0
+L000244,U021,2026-07-25 14:48:00,14,Saturday,Brazil,Rio de Janeiro,Tablet,Safari,144.69.200.27,5,True,None,False,True,False,False,False,True,Brute Force,1
+L000245,U027,2026-07-18 10:41:00,10,Saturday,Brazil,Rio de Janeiro,Mobile,Edge,127.129.236.78,0,False,None,False,False,False,False,False,False,Normal,0
+L000246,U094,2026-07-15 23:11:00,23,Wednesday,Germany,Munich,Mobile,Chrome,26.242.91.35,1,True,Authenticator App,False,False,False,False,False,True,Normal,0
+L000247,U048,2026-07-15 18:11:00,18,Wednesday,United Kingdom,London,Mobile,Firefox,50.185.109.208,1,True,None,False,False,False,False,True,False,Suspicious IP Login,1
+L000248,U050,2026-07-07 04:43:00,4,Tuesday,United Kingdom,London,Tablet,Safari,102.233.173.43,0,True,Authenticator App,False,False,True,False,False,True,Normal,0
+L000249,U029,2026-07-02 23:45:00,23,Thursday,United Kingdom,Manchester,Tablet,Edge,80.148.29.215,0,False,None,False,False,False,False,False,True,Normal,0
+L000250,U036,2026-07-21 02:02:00,2,Tuesday,India,Delhi,Desktop,Firefox,211.45.179.188,7,True,Email Code,False,False,True,False,False,True,Brute Force,1
+L000251,U085,2026-07-23 09:37:00,9,Thursday,United States,Edison,Laptop,Safari,100.2.183.120,0,True,Authenticator App,False,False,False,False,False,True,Normal,0
+L000252,U029,2026-07-13 00:57:00,0,Monday,Canada,Vancouver,Tablet,Chrome,17.234.137.52,1,False,None,True,False,True,False,False,True,New Device Login,1
+L000253,U054,2026-07-03 20:00:00,20,Friday,United Kingdom,Manchester,Desktop,Safari,122.15.148.161,1,True,None,False,False,False,False,True,True,Suspicious IP Login,1
+L000254,U017,2026-07-05 06:07:00,6,Sunday,India,Delhi,Tablet,Chrome,74.108.38.106,1,True,SMS,False,False,False,False,False,True,Normal,0
+L000255,U040,2026-07-18 03:10:00,3,Saturday,United States,San Francisco,Mobile,Firefox,14.212.55.31,0,True,SMS,False,True,True,False,False,True,Normal,0
+L000256,U024,2026-07-31 19:09:00,19,Friday,Germany,Munich,Mobile,Safari,121.2.64.247,4,False,None,False,False,False,False,False,False,Normal,0
+L000257,U042,2026-07-17 11:57:00,11,Friday,Germany,Munich,Tablet,Chrome,130.145.247.67,0,False,None,False,False,False,False,False,True,Normal,0
+L000258,U094,2026-07-04 18:02:00,18,Saturday,Brazil,Rio de Janeiro,Laptop,Firefox,119.80.177.233,0,False,None,False,False,False,False,False,False,Normal,0
+L000259,U054,2026-07-28 15:50:00,15,Tuesday,United States,San Francisco,Mobile,Safari,35.72.64.216,0,True,None,False,True,False,False,True,True,Suspicious IP Login,1
+L000260,U023,2026-07-20 14:51:00,14,Monday,India,Delhi,Laptop,Chrome,94.158.227.210,0,False,None,False,False,False,False,False,True,Normal,0
+L000261,U023,2026-07-06 08:27:00,8,Monday,India,Mumbai,Desktop,Edge,18.124.255.128,1,False,None,False,False,False,False,False,True,Normal,0
+L000262,U089,2026-07-10 22:38:00,22,Friday,Brazil,Rio de Janeiro,Mobile,Firefox,220.107.191.48,1,False,None,False,False,False,False,False,True,Normal,0
+L000263,U016,2026-07-12 18:56:00,18,Sunday,Germany,Berlin,Mobile,Chrome,85.154.34.155,3,True,SMS,False,False,False,False,False,True,Normal,0
+L000264,U049,2026-07-04 03:25:00,3,Saturday,India,Mumbai,Laptop,Firefox,63.183.10.212,2,False,None,False,False,True,False,False,True,Normal,0
+L000265,U073,2026-07-19 05:05:00,5,Sunday,Canada,Vancouver,Laptop,Chrome,69.193.150.160,1,True,Email Code,False,False,False,False,False,True,Normal,0
+L000266,U056,2026-07-19 10:45:00,10,Sunday,India,Mumbai,Desktop,Firefox,33.129.82.6,0,False,None,True,False,False,False,True,True,Suspicious IP Login,1
+L000267,U004,2026-07-24 19:38:00,19,Friday,United Kingdom,Manchester,Tablet,Firefox,78.122.8.160,0,False,None,False,False,False,False,False,True,Normal,0
+L000268,U024,2026-07-28 13:55:00,13,Tuesday,India,Mumbai,Desktop,Safari,125.220.6.199,5,True,SMS,False,True,False,False,False,True,Brute Force,1
+L000269,U092,2026-07-02 08:10:00,8,Thursday,Brazil,São Paulo,Desktop,Chrome,204.103.24.217,0,True,Authenticator App,False,False,False,False,False,True,Normal,0
+L000270,U061,2026-07-29 23:52:00,23,Wednesday,India,Delhi,Laptop,Edge,58.236.82.96,1,True,SMS,False,False,False,False,False,False,Normal,0
+L000271,U006,2026-07-16 11:59:00,11,Thursday,United Kingdom,London,Desktop,Firefox,181.160.4.233,0,False,None,True,False,False,False,False,False,New Device Login,1
+L000272,U055,2026-07-25 17:49:00,17,Saturday,United States,New York,Tablet,Firefox,137.188.160.192,0,False,None,False,True,False,False,False,True,Normal,0
+L000273,U017,2026-07-22 11:05:00,11,Wednesday,India,Delhi,Desktop,Safari,74.159.220.211,0,False,None,True,False,False,False,False,True,New Device Login,1
+L000274,U037,2026-07-27 13:54:00,13,Monday,United Kingdom,Manchester,Desktop,Safari,143.112.61.227,1,True,Email Code,False,False,False,False,False,True,Normal,0
+L000275,U033,2026-07-14 14:32:00,14,Tuesday,India,Bangalore,Laptop,Safari,219.97.71.171,1,True,None,False,False,False,False,True,True,Suspicious IP Login,1
+L000276,U091,2026-07-09 09:09:00,9,Thursday,Germany,Berlin,Desktop,Firefox,195.130.246.88,0,False,None,False,True,False,False,False,True,Normal,0
+L000277,U095,2026-07-11 00:32:00,0,Saturday,India,Bangalore,Laptop,Firefox,34.186.48.245,0,True,Authenticator App,True,False,True,False,False,True,Normal,0
+L000278,U026,2026-07-05 07:47:00,7,Sunday,Germany,Munich,Desktop,Safari,161.183.64.93,0,True,None,False,False,False,False,False,True,Normal,0
+L000279,U049,2026-07-27 19:45:00,19,Monday,Germany,Munich,Mobile,Edge,166.236.208.96,1,True,Authenticator App,False,False,False,False,True,True,Suspicious IP Login,1
+L000280,U052,2026-07-20 09:51:00,9,Monday,United States,Chicago,Mobile,Chrome,199.141.191.251,0,True,Authenticator App,False,False,False,False,False,True,Normal,0
+L000281,U026,2026-07-01 01:13:00,1,Wednesday,Brazil,São Paulo,Mobile,Firefox,107.100.189.254,7,True,Email Code,False,True,True,False,False,True,Brute Force,1
+L000282,U012,2026-07-23 14:25:00,14,Thursday,United Kingdom,Manchester,Laptop,Safari,93.113.188.137,1,True,Email Code,False,False,False,False,False,True,Normal,0
+L000283,U016,2026-07-12 21:22:00,21,Sunday,Brazil,Rio de Janeiro,Laptop,Safari,39.146.186.119,2,True,None,True,False,False,False,False,False,Normal,0
+L000284,U056,2026-07-20 14:51:00,14,Monday,India,Delhi,Mobile,Chrome,21.192.19.252,3,False,None,False,False,False,False,False,True,Normal,0
+L000285,U011,2026-07-28 01:05:00,1,Tuesday,United Kingdom,London,Mobile,Edge,110.27.149.21,0,False,None,False,False,True,False,False,True,Normal,0
+L000286,U005,2026-07-19 14:30:00,14,Sunday,United Kingdom,Manchester,Tablet,Firefox,93.108.204.75,5,False,None,True,False,False,False,False,True,Brute Force,1
+L000287,U079,2026-07-26 17:01:00,17,Sunday,Germany,Berlin,Mobile,Chrome,168.194.157.149,1,True,Email Code,False,False,False,False,False,False,Normal,0
+L000288,U056,2026-07-18 21:27:00,21,Saturday,Brazil,São Paulo,Laptop,Chrome,50.137.127.126,0,True,SMS,True,True,False,False,False,True,Normal,0
+L000289,U080,2026-07-12 10:14:00,10,Sunday,Canada,Vancouver,Desktop,Chrome,101.184.10.107,2,True,Email Code,False,False,False,False,False,True,Normal,0
+L000290,U058,2026-07-24 04:48:00,4,Friday,United Kingdom,Manchester,Mobile,Edge,166.4.116.95,2,False,None,False,False,True,False,False,True,Normal,0
+L000291,U097,2026-07-23 21:05:00,21,Thursday,Brazil,Rio de Janeiro,Tablet,Edge,188.94.188.200,4,False,None,False,False,False,False,False,True,Normal,0
+L000292,U033,2026-07-28 14:41:00,14,Tuesday,United Kingdom,Manchester,Laptop,Safari,36.168.33.67,0,False,None,False,False,False,False,False,True,Normal,0
+L000293,U059,2026-07-28 20:14:00,20,Tuesday,India,Delhi,Laptop,Edge,170.161.8.94,0,True,Authenticator App,False,False,False,False,False,True,Normal,0
+L000294,U035,2026-07-19 16:39:00,16,Sunday,United States,Chicago,Desktop,Edge,10.92.209.86,0,False,None,False,True,False,False,False,True,Normal,0
+L000295,U012,2026-07-12 16:43:00,16,Sunday,United Kingdom,Manchester,Mobile,Firefox,146.227.115.20,1,True,SMS,True,False,False,True,False,True,Impossible Travel,1
+L000296,U038,2026-07-06 15:19:00,15,Monday,United Kingdom,Manchester,Tablet,Chrome,32.188.127.21,0,False,None,True,False,False,False,False,True,New Device Login,1
+L000297,U081,2026-07-22 12:35:00,12,Wednesday,Germany,Berlin,Desktop,Chrome,166.217.177.85,0,False,None,False,False,False,False,False,False,Normal,0
+L000298,U066,2026-07-28 22:31:00,22,Tuesday,United Kingdom,London,Laptop,Edge,118.62.130.169,1,False,None,False,False,False,False,False,True,Normal,0
+L000299,U019,2026-07-11 00:58:00,0,Saturday,Brazil,Rio de Janeiro,Laptop,Edge,117.105.131.3,1,False,None,False,False,True,False,True,True,Suspicious IP Login,1
+L000300,U024,2026-07-10 19:10:00,19,Friday,United Kingdom,Manchester,Desktop,Safari,216.106.185.7,1,True,Email Code,True,False,False,False,False,True,Normal,0
+L000301,U069,2026-07-28 10:45:00,10,Tuesday,Germany,Munich,Desktop,Safari,205.253.52.125,0,True,Authenticator App,False,False,False,False,False,True,Normal,0
+L000302,U007,2026-07-06 03:38:00,3,Monday,Canada,Toronto,Laptop,Edge,67.84.154.11,0,False,None,False,False,True,False,False,True,Normal,0
+L000303,U031,2026-07-06 11:27:00,11,Monday,Canada,Toronto,Mobile,Edge,86.144.218.35,0,False,None,False,True,False,False,False,True,Normal,0
+L000304,U066,2026-07-17 14:23:00,14,Friday,India,Bangalore,Tablet,Firefox,173.52.37.219,2,True,Authenticator App,False,False,False,False,True,True,Suspicious IP Login,1
+L000305,U064,2026-07-13 07:04:00,7,Monday,United States,Edison,Laptop,Safari,154.163.6.232,0,False,None,False,False,False,False,False,True,Normal,0
+L000306,U029,2026-07-30 17:36:00,17,Thursday,India,Bangalore,Mobile,Firefox,162.250.244.169,3,False,None,False,False,False,False,False,True,Normal,0
+L000307,U046,2026-07-10 10:16:00,10,Friday,United States,Chicago,Desktop,Safari,209.151.67.90,0,False,None,False,False,False,False,False,True,Normal,0
+L000308,U052,2026-07-24 11:10:00,11,Friday,India,Bangalore,Tablet,Safari,14.156.238.125,0,True,SMS,False,False,False,False,True,True,Suspicious IP Login,1
+L000309,U066,2026-07-05 03:17:00,3,Sunday,India,Mumbai,Tablet,Firefox,140.32.21.167,0,False,None,False,False,True,False,True,True,Suspicious IP Login,1
+L000310,U094,2026-07-28 04:57:00,4,Tuesday,Canada,Vancouver,Desktop,Safari,35.76.78.224,1,False,None,False,False,True,False,False,True,Normal,0
+L000311,U031,2026-07-30 04:21:00,4,Thursday,Brazil,São Paulo,Desktop,Chrome,111.80.174.240,2,True,Authenticator App,True,False,True,False,False,True,Normal,0
+L000312,U051,2026-07-29 12:13:00,12,Wednesday,Canada,Vancouver,Laptop,Safari,16.153.117.88,4,False,None,True,False,False,False,False,True,New Device Login,1
+L000313,U046,2026-07-17 12:26:00,12,Friday,United States,San Francisco,Mobile,Firefox,49.70.244.223,1,False,None,False,False,False,False,False,False,Normal,0
+L000314,U025,2026-07-27 13:55:00,13,Monday,Germany,Munich,Laptop,Edge,155.197.85.201,7,False,None,False,True,False,False,False,True,Brute Force,1
+L000315,U019,2026-07-13 00:31:00,0,Monday,United Kingdom,Manchester,Mobile,Chrome,97.5.85.86,1,True,Authenticator App,False,True,True,False,False,True,Normal,0
+L000316,U020,2026-07-08 20:50:00,20,Wednesday,United States,Edison,Desktop,Edge,156.168.210.111,0,True,Authenticator App,False,False,False,False,False,True,Normal,0
+L000317,U054,2026-07-04 20:57:00,20,Saturday,Brazil,São Paulo,Desktop,Chrome,85.235.90.221,0,True,None,False,False,False,False,False,True,Normal,0
+L000318,U003,2026-07-02 17:43:00,17,Thursday,Canada,Vancouver,Mobile,Safari,118.66.194.222,0,True,SMS,False,False,False,False,False,True,Normal,0
+L000319,U001,2026-07-19 00:48:00,0,Sunday,United Kingdom,Manchester,Tablet,Chrome,119.105.29.23,0,False,None,False,False,True,False,False,True,Normal,0
+L000320,U006,2026-07-13 06:46:00,6,Monday,United States,New York,Desktop,Safari,108.191.244.94,2,False,None,True,False,False,False,False,True,New Device Login,1
+L000321,U071,2026-07-11 22:29:00,22,Saturday,India,Bangalore,Laptop,Chrome,179.149.52.247,4,True,Email Code,False,False,False,False,False,True,Normal,0
+L000322,U006,2026-07-26 18:57:00,18,Sunday,United States,Edison,Mobile,Safari,99.26.94.254,5,False,None,True,False,False,False,False,True,Brute Force,1
+L000323,U061,2026-07-30 21:07:00,21,Thursday,United Kingdom,London,Desktop,Edge,216.101.117.222,0,True,SMS,False,False,False,False,False,True,Normal,0
+L000324,U038,2026-07-29 12:39:00,12,Wednesday,Brazil,São Paulo,Tablet,Safari,42.26.35.76,0,True,Authenticator App,False,False,False,False,False,True,Normal,0
+L000325,U082,2026-07-24 03:20:00,3,Friday,Germany,Munich,Mobile,Edge,24.129.188.222,0,False,None,False,False,True,False,False,True,Normal,0
+L000326,U010,2026-07-29 12:15:00,12,Wednesday,Canada,Toronto,Desktop,Firefox,153.233.109.128,0,False,None,False,False,False,False,False,True,Normal,0
+L000327,U031,2026-07-06 16:15:00,16,Monday,Brazil,São Paulo,Desktop,Edge,182.240.174.199,0,False,None,False,False,False,False,False,True,Normal,0
+L000328,U021,2026-07-13 06:57:00,6,Monday,Germany,Munich,Tablet,Chrome,74.183.146.144,7,False,None,False,True,False,False,False,True,Brute Force,1
+L000329,U040,2026-07-02 22:02:00,22,Thursday,United Kingdom,London,Mobile,Firefox,189.205.129.233,0,True,SMS,False,True,False,False,False,True,Normal,0
+L000330,U056,2026-07-28 06:12:00,6,Tuesday,United Kingdom,London,Tablet,Edge,178.254.107.226,0,True,Email Code,False,True,False,False,False,True,Normal,0
+L000331,U064,2026-07-14 05:12:00,5,Tuesday,India,Mumbai,Tablet,Chrome,162.216.215.46,0,True,None,False,False,False,False,False,True,Normal,0
+L000332,U088,2026-07-03 11:16:00,11,Friday,India,Bangalore,Tablet,Safari,93.4.226.237,1,False,None,False,False,False,False,False,True,Normal,0
+L000333,U007,2026-07-26 14:41:00,14,Sunday,India,Mumbai,Tablet,Chrome,129.39.92.182,0,False,None,False,True,False,False,False,True,Normal,0
+L000334,U047,2026-07-07 20:12:00,20,Tuesday,India,Delhi,Mobile,Safari,39.164.42.163,0,True,SMS,False,False,False,False,False,True,Normal,0
+L000335,U043,2026-07-25 13:25:00,13,Saturday,Germany,Munich,Desktop,Firefox,63.75.60.54,0,True,None,False,False,False,False,True,False,Suspicious IP Login,1
+L000336,U095,2026-07-23 02:21:00,2,Thursday,Brazil,São Paulo,Tablet,Edge,81.66.31.200,0,False,None,False,False,True,False,False,True,Normal,0
+L000337,U007,2026-07-31 00:58:00,0,Friday,Brazil,São Paulo,Tablet,Edge,69.232.203.125,0,False,None,False,False,True,False,False,False,Normal,0
+L000338,U018,2026-07-04 23:36:00,23,Saturday,India,Bangalore,Desktop,Firefox,35.127.155.26,2,True,SMS,False,False,False,False,False,True,Normal,0
+L000339,U076,2026-07-23 04:45:00,4,Thursday,Canada,Toronto,Tablet,Firefox,206.15.185.125,0,True,Email Code,False,False,True,True,False,True,Impossible Travel,1
+L000340,U006,2026-07-22 17:59:00,17,Wednesday,United Kingdom,Manchester,Laptop,Edge,186.76.223.122,2,True,SMS,False,False,False,False,False,False,Normal,0
+L000341,U074,2026-07-20 07:28:00,7,Monday,Germany,Berlin,Laptop,Chrome,51.254.175.108,1,False,None,False,False,False,False,False,True,Normal,0
+L000342,U021,2026-07-29 20:44:00,20,Wednesday,Germany,Munich,Mobile,Firefox,92.177.35.125,0,False,None,False,False,False,False,False,True,Normal,0
+L000343,U027,2026-07-09 03:00:00,3,Thursday,Canada,Toronto,Desktop,Chrome,117.98.140.62,0,False,None,True,False,True,True,False,True,Impossible Travel,1
+L000344,U092,2026-07-17 06:38:00,6,Friday,Germany,Berlin,Desktop,Firefox,206.172.113.229,0,True,Email Code,False,False,False,False,False,False,Normal,0
+L000345,U082,2026-07-10 01:55:00,1,Friday,United States,Chicago,Mobile,Chrome,203.86.123.197,2,True,Email Code,False,True,True,False,False,True,Normal,0
+L000346,U012,2026-07-27 04:40:00,4,Monday,India,Mumbai,Desktop,Safari,203.97.10.218,1,True,SMS,True,False,True,False,True,False,Suspicious IP Login,1
+L000347,U057,2026-07-05 20:31:00,20,Sunday,India,Mumbai,Mobile,Firefox,170.248.99.254,0,False,None,False,False,False,False,False,True,Normal,0
+L000348,U045,2026-07-30 16:33:00,16,Thursday,India,Mumbai,Laptop,Edge,96.237.155.213,0,True,Authenticator App,False,False,False,True,False,True,Impossible Travel,1
+L000349,U073,2026-07-10 06:32:00,6,Friday,Brazil,Rio de Janeiro,Tablet,Edge,44.81.206.68,5,False,None,True,False,False,False,False,False,Brute Force,1
+L000350,U045,2026-07-20 16:30:00,16,Monday,India,Mumbai,Tablet,Firefox,145.211.153.242,1,False,None,True,True,False,False,False,True,New Device Login,1
+L000351,U001,2026-07-28 01:36:00,1,Tuesday,Brazil,Rio de Janeiro,Tablet,Chrome,53.107.50.104,0,True,Email Code,False,False,True,False,True,True,Suspicious IP Login,1
+L000352,U053,2026-07-01 00:23:00,0,Wednesday,United Kingdom,London,Desktop,Edge,55.28.74.30,1,True,Authenticator App,False,True,True,False,False,False,Normal,0
+L000353,U090,2026-07-20 01:16:00,1,Monday,United Kingdom,London,Tablet,Safari,20.184.107.46,5,True,SMS,False,False,True,False,False,True,Brute Force,1
+L000354,U001,2026-07-11 14:27:00,14,Saturday,United States,Chicago,Desktop,Safari,168.28.213.52,5,True,Email Code,False,True,False,False,False,True,Brute Force,1
+L000355,U015,2026-07-30 08:52:00,8,Thursday,Canada,Vancouver,Mobile,Safari,25.113.111.245,2,False,None,False,False,False,False,False,True,Normal,0
+L000356,U025,2026-07-24 08:44:00,8,Friday,Germany,Munich,Laptop,Safari,17.218.1.178,6,False,None,False,False,False,False,False,True,Brute Force,1
+L000357,U086,2026-07-12 15:29:00,15,Sunday,Brazil,Rio de Janeiro,Desktop,Firefox,168.166.106.252,0,True,None,False,False,False,False,False,True,Normal,0
+L000358,U052,2026-07-01 21:19:00,21,Wednesday,United States,Chicago,Mobile,Chrome,47.103.76.156,0,False,None,False,False,False,False,False,True,Normal,0
+L000359,U093,2026-07-08 17:58:00,17,Wednesday,United Kingdom,London,Tablet,Chrome,96.85.222.128,2,False,None,False,False,False,False,False,True,Normal,0
+L000360,U020,2026-07-05 10:02:00,10,Sunday,Canada,Vancouver,Tablet,Firefox,80.173.86.222,1,False,None,False,False,False,False,False,True,Normal,0
+L000361,U096,2026-07-09 03:47:00,3,Thursday,Canada,Toronto,Desktop,Firefox,74.31.81.218,0,False,None,True,False,True,False,False,True,New Device Login,1
+L000362,U001,2026-07-01 02:57:00,2,Wednesday,United Kingdom,Manchester,Laptop,Firefox,222.166.169.46,1,False,None,False,True,True,False,False,True,Normal,0
+L000363,U023,2026-07-21 12:37:00,12,Tuesday,Brazil,São Paulo,Tablet,Firefox,176.6.154.184,0,True,SMS,True,False,False,False,False,True,Normal,0
+L000364,U013,2026-07-21 17:06:00,17,Tuesday,United States,Chicago,Laptop,Chrome,79.53.18.158,0,False,None,False,False,False,False,False,True,Normal,0
+L000365,U055,2026-07-18 15:59:00,15,Saturday,India,Mumbai,Mobile,Chrome,82.138.235.169,0,False,None,False,True,False,False,False,True,Normal,0
+L000366,U050,2026-07-08 18:33:00,18,Wednesday,Brazil,Rio de Janeiro,Desktop,Firefox,24.62.136.155,2,True,Authenticator App,False,False,False,True,False,True,Impossible Travel,1
+L000367,U079,2026-07-12 19:24:00,19,Sunday,United States,Edison,Mobile,Safari,15.8.142.172,4,True,None,False,False,False,False,False,True,Normal,0
+L000368,U098,2026-07-17 19:39:00,19,Friday,Canada,Vancouver,Mobile,Edge,28.83.249.93,0,False,None,True,False,False,False,True,True,Suspicious IP Login,1
+L000369,U066,2026-07-29 22:44:00,22,Wednesday,Germany,Berlin,Tablet,Edge,210.78.246.241,0,False,None,False,False,False,False,False,True,Normal,0
+L000370,U011,2026-07-26 14:32:00,14,Sunday,Germany,Munich,Desktop,Chrome,172.151.174.77,0,True,None,False,False,False,False,True,True,Suspicious IP Login,1
+L000371,U085,2026-07-20 06:08:00,6,Monday,United States,Edison,Mobile,Firefox,39.47.158.200,0,False,None,False,False,False,False,False,True,Normal,0
+L000372,U012,2026-07-20 17:43:00,17,Monday,Brazil,Rio de Janeiro,Laptop,Edge,33.168.230.119,2,True,Email Code,False,False,False,False,False,True,Normal,0
+L000373,U021,2026-07-11 07:16:00,7,Saturday,India,Delhi,Desktop,Chrome,194.199.175.241,1,True,Email Code,True,True,False,False,False,False,Normal,0
+L000374,U061,2026-07-29 03:24:00,3,Wednesday,Brazil,Rio de Janeiro,Tablet,Firefox,158.226.131.100,0,False,None,True,False,True,False,False,True,New Device Login,1
+L000375,U073,2026-07-11 16:54:00,16,Saturday,Germany,Berlin,Tablet,Firefox,25.193.87.183,1,True,SMS,True,False,False,False,False,True,Normal,0
+L000376,U081,2026-07-25 06:56:00,6,Saturday,United States,Edison,Laptop,Edge,175.143.81.106,3,True,Email Code,False,False,False,False,False,True,Normal,0
+L000377,U057,2026-07-09 12:33:00,12,Thursday,United States,New York,Desktop,Chrome,126.2.10.188,1,True,Authenticator App,False,False,False,False,False,True,Normal,0
+L000378,U050,2026-07-16 03:04:00,3,Thursday,Germany,Berlin,Tablet,Firefox,188.237.25.130,3,True,Authenticator App,False,False,True,False,True,True,Suspicious IP Login,1
+L000379,U094,2026-07-13 03:29:00,3,Monday,Germany,Berlin,Mobile,Firefox,134.64.101.218,0,True,Email Code,False,False,True,False,False,True,Normal,0
+L000380,U090,2026-07-31 23:12:00,23,Friday,United States,Chicago,Tablet,Firefox,185.36.207.190,0,True,None,False,False,False,False,False,True,Normal,0
+L000381,U085,2026-07-06 14:51:00,14,Monday,Brazil,São Paulo,Laptop,Firefox,171.236.220.241,1,True,SMS,False,False,False,False,False,True,Normal,0
+L000382,U004,2026-07-28 16:11:00,16,Tuesday,India,Mumbai,Tablet,Safari,192.213.166.163,0,True,Email Code,False,False,False,False,False,True,Normal,0
+L000383,U093,2026-07-24 12:03:00,12,Friday,United States,New York,Laptop,Chrome,51.81.203.29,0,True,SMS,True,True,False,False,False,True,Normal,0
+L000384,U064,2026-07-03 18:05:00,18,Friday,United Kingdom,Manchester,Tablet,Chrome,113.78.239.43,4,False,None,False,False,False,False,True,False,Suspicious IP Login,1
+L000385,U055,2026-07-27 01:38:00,1,Monday,Canada,Vancouver,Desktop,Firefox,162.132.229.48,3,False,None,False,False,True,False,False,True,Normal,0
+L000386,U069,2026-07-12 16:51:00,16,Sunday,Brazil,Rio de Janeiro,Mobile,Edge,128.148.191.220,0,False,None,False,True,False,False,False,True,Normal,0
+L000387,U022,2026-07-26 01:22:00,1,Sunday,Germany,Munich,Laptop,Chrome,108.42.182.123,0,True,None,True,False,True,False,False,True,Normal,0
+L000388,U095,2026-07-24 06:39:00,6,Friday,United Kingdom,London,Laptop,Safari,87.77.90.175,1,False,None,False,False,False,False,False,False,Normal,0
+L000389,U078,2026-07-30 14:25:00,14,Thursday,Canada,Toronto,Laptop,Chrome,166.70.131.243,1,False,None,True,False,False,False,False,True,New Device Login,1
+L000390,U024,2026-07-27 06:16:00,6,Monday,Brazil,Rio de Janeiro,Laptop,Chrome,209.101.104.7,0,True,Authenticator App,True,False,False,False,False,True,Normal,0
+L000391,U072,2026-07-06 17:05:00,17,Monday,Canada,Toronto,Tablet,Firefox,198.7.223.85,0,False,None,True,False,False,False,False,True,New Device Login,1
+L000392,U026,2026-07-14 08:25:00,8,Tuesday,Germany,Berlin,Laptop,Firefox,67.93.169.21,0,False,None,False,False,False,False,False,True,Normal,0
+L000393,U039,2026-07-18 10:59:00,10,Saturday,India,Bangalore,Desktop,Edge,102.114.26.90,5,False,None,False,False,False,False,False,False,Brute Force,1
+L000394,U028,2026-07-20 06:50:00,6,Monday,Germany,Munich,Desktop,Chrome,213.162.57.208,0,False,None,False,False,False,False,False,False,Normal,0
+L000395,U025,2026-07-02 18:09:00,18,Thursday,United Kingdom,London,Tablet,Chrome,110.80.27.216,0,False,None,False,True,False,False,False,True,Normal,0
+L000396,U050,2026-07-24 01:04:00,1,Friday,Germany,Berlin,Mobile,Edge,132.49.17.197,0,False,None,False,False,True,False,False,False,Normal,0
+L000397,U084,2026-07-10 20:32:00,20,Friday,Brazil,São Paulo,Desktop,Safari,123.90.11.226,5,True,Email Code,False,True,False,False,False,False,Brute Force,1
+L000398,U067,2026-07-22 06:18:00,6,Wednesday,Germany,Berlin,Laptop,Firefox,158.172.69.215,0,False,None,False,False,False,False,False,True,Normal,0
+L000399,U030,2026-07-25 22:04:00,22,Saturday,Brazil,Rio de Janeiro,Desktop,Edge,138.113.238.235,0,False,None,False,False,False,False,False,True,Normal,0
+L000400,U020,2026-07-13 12:11:00,12,Monday,Canada,Toronto,Tablet,Firefox,25.148.93.253,0,True,None,True,False,False,False,True,True,Suspicious IP Login,1
+L000401,U058,2026-07-29 02:58:00,2,Wednesday,Brazil,Rio de Janeiro,Mobile,Safari,36.188.101.3,0,False,None,False,False,True,False,False,True,Normal,0
+L000402,U027,2026-07-25 17:40:00,17,Saturday,Brazil,Rio de Janeiro,Tablet,Chrome,21.73.211.105,1,False,None,False,False,False,False,False,True,Normal,0
+L000403,U032,2026-07-15 04:39:00,4,Wednesday,India,Mumbai,Mobile,Chrome,112.240.180.36,2,True,Email Code,False,False,True,False,False,True,Normal,0
+L000404,U020,2026-07-06 16:30:00,16,Monday,United Kingdom,London,Laptop,Safari,221.217.183.113,1,False,None,False,False,False,False,False,True,Normal,0
+L000405,U054,2026-07-13 04:15:00,4,Monday,Germany,Munich,Tablet,Chrome,204.115.13.29,0,False,None,False,False,True,False,False,False,Normal,0
+L000406,U083,2026-07-05 07:05:00,7,Sunday,Brazil,Rio de Janeiro,Laptop,Edge,13.89.27.115,0,True,SMS,False,False,False,False,False,True,Normal,0
+L000407,U033,2026-07-28 04:34:00,4,Tuesday,United States,San Francisco,Mobile,Edge,18.251.66.187,0,False,None,False,False,True,False,False,True,Normal,0
+L000408,U014,2026-07-22 00:53:00,0,Wednesday,Canada,Toronto,Desktop,Edge,197.3.185.220,0,False,None,True,False,True,False,False,True,New Device Login,1
+L000409,U029,2026-07-27 10:58:00,10,Monday,United Kingdom,Manchester,Laptop,Edge,16.166.120.140,2,False,None,False,False,False,False,False,False,Normal,0
+L000410,U042,2026-07-02 06:39:00,6,Thursday,United Kingdom,London,Laptop,Safari,208.46.233.55,1,False,None,False,False,False,False,False,True,Normal,0
+L000411,U096,2026-07-01 10:52:00,10,Wednesday,United States,Edison,Tablet,Edge,76.141.159.12,0,True,None,False,False,False,False,False,True,Normal,0
+L000412,U092,2026-07-05 19:47:00,19,Sunday,Canada,Vancouver,Mobile,Firefox,100.0.156.236,6,False,None,False,True,False,False,False,True,Brute Force,1
+L000413,U020,2026-07-26 15:22:00,15,Sunday,Canada,Toronto,Tablet,Safari,156.56.144.42,5,True,Authenticator App,False,False,False,False,False,True,Brute Force,1
+L000414,U029,2026-07-02 03:22:00,3,Thursday,Brazil,São Paulo,Desktop,Safari,164.32.117.47,0,False,None,False,False,True,False,False,True,Normal,0
+L000415,U056,2026-07-09 08:54:00,8,Thursday,India,Delhi,Tablet,Edge,68.145.9.248,3,False,None,False,False,False,False,False,False,Normal,0
+L000416,U038,2026-07-03 04:02:00,4,Friday,United Kingdom,Manchester,Tablet,Firefox,189.173.163.105,0,True,SMS,False,False,True,False,False,True,Normal,0
+L000417,U017,2026-07-12 11:02:00,11,Sunday,Canada,Toronto,Tablet,Chrome,64.175.134.216,2,True,None,False,True,False,False,False,True,Normal,0
+L000418,U011,2026-07-27 04:46:00,4,Monday,India,Mumbai,Laptop,Chrome,40.249.106.165,0,False,None,False,True,True,False,False,True,Normal,0
+L000419,U020,2026-07-26 23:58:00,23,Sunday,Germany,Munich,Desktop,Chrome,17.185.17.112,0,False,None,False,False,False,False,False,True,Normal,0
+L000420,U071,2026-07-30 16:47:00,16,Thursday,Brazil,Rio de Janeiro,Desktop,Chrome,99.36.97.160,2,False,None,True,False,False,False,False,True,New Device Login,1
+L000421,U017,2026-07-03 04:06:00,4,Friday,Brazil,Rio de Janeiro,Tablet,Safari,75.237.16.241,0,True,SMS,False,False,True,False,False,True,Normal,0
+L000422,U060,2026-07-03 14:47:00,14,Friday,India,Bangalore,Laptop,Safari,192.220.208.2,0,True,SMS,False,False,False,False,False,True,Normal,0
+L000423,U078,2026-07-16 03:29:00,3,Thursday,India,Delhi,Tablet,Safari,83.62.46.122,0,True,Authenticator App,False,False,True,False,False,True,Normal,0
+L000424,U059,2026-07-03 12:32:00,12,Friday,India,Delhi,Laptop,Chrome,17.217.153.117,0,False,None,False,False,False,False,False,True,Normal,0
+L000425,U063,2026-07-31 04:03:00,4,Friday,United Kingdom,London,Tablet,Safari,191.113.57.156,0,True,None,False,False,True,False,True,True,Suspicious IP Login,1
+L000426,U076,2026-07-25 09:14:00,9,Saturday,India,Delhi,Laptop,Chrome,22.9.17.146,0,True,Email Code,False,False,False,False,False,True,Normal,0
+L000427,U098,2026-07-21 17:31:00,17,Tuesday,Germany,Berlin,Laptop,Chrome,199.219.207.87,0,False,None,False,False,False,False,False,True,Normal,0
+L000428,U006,2026-07-28 03:18:00,3,Tuesday,Canada,Toronto,Tablet,Safari,53.90.248.53,4,True,SMS,False,False,True,False,False,True,Normal,0
+L000429,U058,2026-07-22 00:26:00,0,Wednesday,Brazil,São Paulo,Desktop,Firefox,69.137.19.10,7,True,Authenticator App,False,False,True,False,False,True,Brute Force,1
+L000430,U085,2026-07-09 08:43:00,8,Thursday,Canada,Toronto,Laptop,Chrome,76.246.92.134,0,False,None,False,False,False,False,False,True,Normal,0
+L000431,U044,2026-07-22 22:51:00,22,Wednesday,Brazil,Rio de Janeiro,Laptop,Firefox,153.27.154.187,0,False,None,False,False,False,False,False,True,Normal,0
+L000432,U077,2026-07-15 12:16:00,12,Wednesday,Germany,Munich,Laptop,Safari,179.158.92.212,0,True,SMS,False,False,False,False,False,True,Normal,0
+L000433,U021,2026-07-05 19:07:00,19,Sunday,Canada,Vancouver,Mobile,Safari,182.161.10.186,1,True,Email Code,True,False,False,False,False,True,Normal,0
+L000434,U068,2026-07-14 10:21:00,10,Tuesday,Brazil,Rio de Janeiro,Tablet,Firefox,130.111.165.188,0,False,None,False,True,False,False,False,True,Normal,0
+L000435,U050,2026-07-10 05:18:00,5,Friday,Canada,Toronto,Desktop,Safari,73.20.246.206,2,False,None,False,False,False,False,False,False,Normal,0
+L000436,U064,2026-07-08 15:50:00,15,Wednesday,United States,New York,Tablet,Edge,140.216.105.191,0,True,SMS,False,False,False,False,False,True,Normal,0
+L000437,U033,2026-07-15 13:33:00,13,Wednesday,India,Mumbai,Laptop,Edge,73.184.217.229,6,False,None,True,False,False,False,False,True,Brute Force,1
+L000438,U017,2026-07-26 02:25:00,2,Sunday,United Kingdom,Manchester,Desktop,Edge,57.188.225.106,1,True,Email Code,True,False,True,False,False,True,Normal,0
+L000439,U001,2026-07-27 15:01:00,15,Monday,United States,San Francisco,Mobile,Safari,212.28.40.133,1,False,None,True,False,False,False,False,False,New Device Login,1
+L000440,U095,2026-07-28 22:40:00,22,Tuesday,Brazil,Rio de Janeiro,Tablet,Safari,154.129.204.142,1,False,None,False,True,False,False,False,True,Normal,0
+L000441,U045,2026-07-04 03:58:00,3,Saturday,India,Bangalore,Desktop,Chrome,95.21.3.17,0,True,SMS,False,False,True,False,False,True,Normal,0
+L000442,U064,2026-07-18 22:22:00,22,Saturday,Germany,Munich,Tablet,Edge,111.183.213.194,1,True,Authenticator App,False,False,False,False,False,True,Normal,0
+L000443,U047,2026-07-22 16:00:00,16,Wednesday,Germany,Berlin,Mobile,Safari,137.201.163.52,0,True,SMS,True,False,False,False,False,True,Normal,0
+L000444,U097,2026-07-04 07:19:00,7,Saturday,Canada,Toronto,Desktop,Safari,64.252.184.175,2,False,None,False,False,False,False,True,True,Suspicious IP Login,1
+L000445,U014,2026-07-04 16:47:00,16,Saturday,United Kingdom,Manchester,Laptop,Safari,33.96.145.234,2,False,None,True,False,False,False,False,True,New Device Login,1
+L000446,U089,2026-07-25 12:35:00,12,Saturday,United Kingdom,London,Desktop,Edge,209.0.38.92,3,True,Authenticator App,False,True,False,False,False,True,Foreign Login,1
+L000447,U001,2026-07-17 21:13:00,21,Friday,Germany,Berlin,Desktop,Edge,39.57.11.219,4,True,None,False,False,False,False,False,True,Normal,0
+L000448,U093,2026-07-08 22:28:00,22,Wednesday,India,Delhi,Laptop,Chrome,209.67.124.114,2,False,None,False,False,False,False,False,True,Normal,0
+L000449,U003,2026-07-13 18:45:00,18,Monday,India,Delhi,Mobile,Firefox,99.44.175.160,0,True,None,False,True,False,False,False,True,Normal,0
+L000450,U076,2026-07-30 15:59:00,15,Thursday,Brazil,Rio de Janeiro,Desktop,Safari,33.129.219.135,0,False,None,False,False,False,False,False,True,Normal,0
+L000451,U062,2026-07-08 17:38:00,17,Wednesday,Brazil,Rio de Janeiro,Mobile,Chrome,188.108.107.29,0,False,None,False,False,False,False,False,True,Normal,0
+L000452,U064,2026-07-20 15:34:00,15,Monday,Germany,Munich,Mobile,Edge,161.85.88.116,0,False,None,False,False,False,False,False,True,Normal,0
+L000453,U061,2026-07-16 01:33:00,1,Thursday,United States,Chicago,Desktop,Edge,186.73.60.158,1,False,None,False,False,True,False,False,True,Normal,0
+L000454,U090,2026-07-26 07:32:00,7,Sunday,Brazil,São Paulo,Desktop,Firefox,124.180.254.29,0,True,None,True,False,False,False,False,True,Normal,0
+L000455,U041,2026-07-16 19:12:00,19,Thursday,Canada,Vancouver,Laptop,Chrome,128.3.53.16,0,True,None,True,False,False,False,False,False,Normal,0
+L000456,U011,2026-07-19 05:06:00,5,Sunday,United States,New York,Tablet,Edge,147.239.214.29,1,True,None,False,False,False,False,False,True,Normal,0
+L000457,U017,2026-07-15 14:04:00,14,Wednesday,Canada,Vancouver,Tablet,Safari,152.168.2.131,1,True,None,False,False,False,False,False,True,Normal,0
+L000458,U082,2026-07-10 20:58:00,20,Friday,United Kingdom,London,Tablet,Firefox,53.144.63.195,0,False,None,False,False,False,False,False,True,Normal,0
+L000459,U090,2026-07-22 03:27:00,3,Wednesday,Canada,Toronto,Mobile,Edge,162.197.238.132,0,False,None,False,False,True,False,False,True,Normal,0
+L000460,U067,2026-07-20 23:46:00,23,Monday,Canada,Toronto,Laptop,Chrome,50.250.156.72,0,False,None,True,False,False,False,True,True,Suspicious IP Login,1
+L000461,U085,2026-07-28 09:33:00,9,Tuesday,United Kingdom,Manchester,Mobile,Safari,64.145.105.116,2,True,Email Code,False,False,False,False,False,True,Normal,0
+L000462,U058,2026-07-30 22:23:00,22,Thursday,Germany,Munich,Mobile,Edge,205.78.108.190,0,False,None,False,False,False,False,True,True,Suspicious IP Login,1
+L000463,U084,2026-07-26 02:56:00,2,Sunday,Germany,Berlin,Desktop,Edge,77.105.144.16,3,True,Authenticator App,False,False,True,False,False,True,Normal,0
+L000464,U097,2026-07-02 13:19:00,13,Thursday,United States,Chicago,Laptop,Chrome,210.75.11.61,3,False,None,True,False,False,False,False,True,New Device Login,1
+L000465,U076,2026-07-20 04:27:00,4,Monday,Germany,Munich,Mobile,Chrome,102.154.198.243,2,False,None,False,False,True,False,False,False,Normal,0
+L000466,U015,2026-07-11 11:20:00,11,Saturday,United States,Edison,Mobile,Edge,76.71.204.251,2,False,None,False,False,False,False,False,True,Normal,0
+L000467,U097,2026-07-21 02:51:00,2,Tuesday,United Kingdom,London,Laptop,Safari,21.155.33.27,0,True,None,False,False,True,False,True,True,Suspicious IP Login,1
+L000468,U086,2026-07-02 07:05:00,7,Thursday,India,Bangalore,Desktop,Edge,88.226.190.36,1,True,Email Code,False,True,False,False,True,True,Suspicious IP Login,1
+L000469,U010,2026-07-09 06:41:00,6,Thursday,United Kingdom,Manchester,Desktop,Safari,126.126.159.17,1,False,None,True,True,False,False,True,False,Suspicious IP Login,1
+L000470,U060,2026-07-26 23:41:00,23,Sunday,Brazil,São Paulo,Tablet,Firefox,18.0.18.1,0,True,Email Code,False,False,False,False,False,True,Normal,0
+L000471,U003,2026-07-19 09:22:00,9,Sunday,Germany,Berlin,Laptop,Chrome,67.123.165.79,1,False,None,False,False,False,False,False,True,Normal,0
+L000472,U066,2026-07-15 10:55:00,10,Wednesday,Brazil,Rio de Janeiro,Desktop,Edge,25.108.129.170,0,True,Email Code,False,False,False,False,False,False,Normal,0
+L000473,U034,2026-07-22 07:22:00,7,Wednesday,Germany,Munich,Mobile,Chrome,97.171.203.101,2,False,None,False,False,False,False,False,True,Normal,0
+L000474,U024,2026-07-01 09:27:00,9,Wednesday,India,Delhi,Laptop,Firefox,90.49.240.158,0,True,Email Code,False,False,False,False,False,True,Normal,0
+L000475,U052,2026-07-11 07:37:00,7,Saturday,Germany,Berlin,Mobile,Chrome,170.195.196.227,3,True,SMS,False,False,False,False,False,False,Normal,0
+L000476,U010,2026-07-30 03:48:00,3,Thursday,India,Bangalore,Laptop,Firefox,51.247.108.127,0,False,None,True,False,True,False,False,False,New Device Login,1
+L000477,U078,2026-07-03 09:56:00,9,Friday,Canada,Vancouver,Mobile,Chrome,48.136.205.164,4,True,SMS,False,False,False,False,False,True,Normal,0
+L000478,U015,2026-07-04 20:32:00,20,Saturday,United Kingdom,Manchester,Laptop,Safari,61.246.55.157,0,False,None,True,False,False,False,False,True,New Device Login,1
+L000479,U038,2026-07-31 10:40:00,10,Friday,United Kingdom,Manchester,Laptop,Firefox,219.27.111.234,1,False,None,False,False,False,False,False,True,Normal,0
+L000480,U090,2026-07-03 01:40:00,1,Friday,Germany,Berlin,Desktop,Firefox,177.218.74.217,0,False,None,False,False,True,False,False,True,Normal,0
+L000481,U005,2026-07-08 15:52:00,15,Wednesday,Canada,Vancouver,Desktop,Chrome,92.202.142.211,0,False,None,False,True,False,False,False,True,Normal,0
+L000482,U072,2026-07-24 05:53:00,5,Friday,Brazil,São Paulo,Tablet,Chrome,77.118.150.149,6,False,None,False,True,False,False,False,True,Brute Force,1
+L000483,U033,2026-07-29 06:06:00,6,Wednesday,India,Bangalore,Laptop,Safari,40.214.173.69,0,True,SMS,False,False,False,False,False,True,Normal,0
+L000484,U094,2026-07-20 04:03:00,4,Monday,India,Bangalore,Mobile,Safari,155.158.109.148,2,True,Authenticator App,False,True,True,False,False,True,Normal,0
+L000485,U044,2026-07-21 05:05:00,5,Tuesday,United Kingdom,Manchester,Desktop,Safari,61.21.9.182,1,True,None,True,False,False,False,False,True,Normal,0
+L000486,U026,2026-07-26 13:08:00,13,Sunday,Canada,Vancouver,Desktop,Safari,213.247.255.80,6,True,SMS,True,False,False,False,False,True,Brute Force,1
+L000487,U029,2026-07-02 18:42:00,18,Thursday,Canada,Toronto,Desktop,Chrome,210.48.138.248,0,True,SMS,False,True,False,False,False,False,Normal,0
+L000488,U062,2026-07-29 20:33:00,20,Wednesday,United Kingdom,Manchester,Tablet,Firefox,174.244.88.46,1,True,SMS,True,False,False,False,False,True,Normal,0
+L000489,U031,2026-07-28 16:43:00,16,Tuesday,India,Bangalore,Tablet,Firefox,49.180.159.213,0,False,None,False,False,False,False,False,True,Normal,0
+L000490,U027,2026-07-13 18:48:00,18,Monday,United Kingdom,London,Tablet,Chrome,44.126.39.223,0,False,None,False,False,False,False,False,False,Normal,0
+L000491,U091,2026-07-19 13:07:00,13,Sunday,United States,New York,Mobile,Chrome,141.1.132.240,0,True,None,False,False,False,False,False,True,Normal,0
+L000492,U058,2026-07-19 06:25:00,6,Sunday,United States,Chicago,Tablet,Edge,115.252.47.237,2,False,None,False,False,False,False,False,False,Normal,0
+L000493,U052,2026-07-11 13:31:00,13,Saturday,United Kingdom,Manchester,Tablet,Edge,81.40.30.40,0,True,None,True,False,False,False,False,True,Normal,0
+L000494,U053,2026-07-20 20:04:00,20,Monday,United States,New York,Mobile,Safari,17.139.159.54,0,False,None,True,False,False,False,False,True,New Device Login,1
+L000495,U023,2026-07-02 20:14:00,20,Thursday,United Kingdom,Manchester,Tablet,Safari,151.195.143.34,1,True,Email Code,False,False,False,False,False,True,Normal,0
+L000496,U062,2026-07-25 10:18:00,10,Saturday,Brazil,São Paulo,Mobile,Firefox,110.250.188.77,1,True,SMS,False,False,False,False,False,True,Normal,0
+L000497,U029,2026-07-02 17:24:00,17,Thursday,United States,San Francisco,Laptop,Firefox,12.77.206.38,4,False,None,False,False,False,False,False,True,Normal,0
+L000498,U050,2026-07-10 03:40:00,3,Friday,United Kingdom,London,Desktop,Safari,50.89.67.17,2,False,None,False,True,True,False,False,True,Normal,0
+L000499,U013,2026-07-22 02:14:00,2,Wednesday,United Kingdom,London,Tablet,Edge,182.51.214.134,5,False,None,True,False,True,False,False,True,Brute Force,1
+L000500,U067,2026-07-28 08:44:00,8,Tuesday,Germany,Munich,Laptop,Firefox,147.157.62.15,1,False,None,False,True,False,False,False,True,Normal,0
