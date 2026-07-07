@@ -1,0 +1,11 @@
+risk_factor,count
+Login success,8240
+No MFA,2695
+Failed attempts >= 3,1385
+Failed attempts >= 5,691
+Foreign login,664
+Unusual hour,626
+New device,553
+Impossible travel,281
+Suspicious IP,222
+MFA failed attempts >= 3,100

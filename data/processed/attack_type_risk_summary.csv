@@ -1,0 +1,11 @@
+attack_type,count,avg_risk_score,min_risk_score,max_risk_score
+Credential Stuffing,112,98.84,85,100
+Impossible Travel,281,92.35,75,100
+Brute Force,528,80.97,40,100
+Suspicious IP Login,110,80.14,40,100
+MFA Fatigue,100,57.4,40,70
+New Device Login,301,55.98,30,100
+Foreign Login,383,52.89,30,100
+Unusual Hour Login,205,52.44,30,100
+No MFA Login,274,41.3,30,100
+Normal,7706,7.84,0,75
