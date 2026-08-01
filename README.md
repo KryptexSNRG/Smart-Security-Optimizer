@@ -442,6 +442,8 @@ Current documentation includes:
 - `data_dictionary.md`: Defines the login-event schema and variable types.
 - `synthetic_data_methodology.md`: Explains how the synthetic dataset was generated, why synthetic data was used, and its limitations.
 - `risk_scoring_methodology.md`: Defines the point-based risk rules, score cap, risk levels, and recommended actions.
+- `ml_methodology.md`: Explains the ML target, selected features, excluded fields, models, and evaluation metrics.
+- `ml_results.md`: Summarizes class imbalance, model metrics, feature importance, selected model, and limitations.
 
 ## Current Project Status
 
@@ -465,6 +467,12 @@ Completed so far:
 - Applied risk scoring to every login event
 - Added risk analysis outputs and charts
 - Added unit tests for the risk engine
+- Checked class imbalance
+- Compared baseline and balanced ML models
+- Evaluated accuracy, precision, recall, F1 score, and confusion matrices
+- Saved trained model and encoder
+- Added reusable model prediction logic
+- Documented ML results and limitations
 
 Next steps:
 
