@@ -1,4 +1,7 @@
 model,accuracy,precision,recall,f1_score,true_negative,false_positive,false_negative,true_positive
-Logistic Regression,0.9695,0.927,0.9412,0.9341,1507,34,27,432
-Random Forest,0.968,0.9247,0.9368,0.9307,1506,35,29,430
-Decision Tree,0.967,0.9319,0.9237,0.9278,1510,31,35,424
+Logistic Regression,0.9745,0.9744,0.9129,0.9426,1530,11,40,419
+Random Forest,0.9735,0.9635,0.9194,0.9409,1525,16,37,422
+Decision Tree,0.9705,0.9505,0.9194,0.9347,1519,22,37,422
+Logistic Regression Balanced,0.9695,0.927,0.9412,0.9341,1507,34,27,432
+Random Forest Balanced,0.968,0.9247,0.9368,0.9307,1506,35,29,430
+Decision Tree Balanced,0.967,0.9319,0.9237,0.9278,1510,31,35,424

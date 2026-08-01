@@ -1,0 +1,7 @@
+model,true_negative,false_positive,false_negative,true_positive
+Logistic Regression,1530,11,40,419
+Logistic Regression Balanced,1507,34,27,432
+Decision Tree,1519,22,37,422
+Decision Tree Balanced,1510,31,35,424
+Random Forest,1525,16,37,422
+Random Forest Balanced,1506,35,29,430

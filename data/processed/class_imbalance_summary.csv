@@ -1,0 +1,5 @@
+dataset,count
+train_normal,6164
+train_suspicious,1836
+test_normal,1541
+test_suspicious,459
