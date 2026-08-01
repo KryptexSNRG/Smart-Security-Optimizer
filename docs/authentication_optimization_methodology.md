@@ -2,28 +2,30 @@
 
 ## Purpose
 
-The Smart Security Optimizer does more than detect risky logins. It also recommends an authentication strategy based on risk, security strength, cost, user friction, and implementation complexity.
+The Smart Security Optimizer does more than detect risky logins. It also recommends an authentication action based on the login risk level, security benefit, cost, user friction, and implementation complexity.
 
-The goal is to choose an authentication method that improves security while keeping cost and user inconvenience reasonable.
+The optimizer helps decide which authentication strategy should be used for a login event. It balances strong security with practical business concerns such as budget, user convenience, and implementation difficulty.
 
 ## Authentication Strategies
 
-The project compares four authentication strategies:
+The project compares four authentication strategies.
 
 | Strategy | Description |
 |---|---|
 | Password Only | User logs in with only a password. |
 | SMS MFA | User enters a password and verifies with an SMS code. |
 | App MFA | User enters a password and verifies using an authenticator app. |
-| Passwordless | User logs in using a stronger method such as passkey, biometric, or device-based authentication. |
+| Passwordless | User logs in using a stronger method such as passkey, biometric, or trusted-device authentication. |
+
+Critical-risk logins are handled separately. Instead of choosing one of the four authentication strategies, the optimizer recommends blocking the login or requiring additional identity verification.
 
 ## Strategy Scores
 
-Each strategy is scored from `1` to `10` across four dimensions.
+Each authentication strategy is scored from `1` to `10` across four dimensions.
 
 | Score Type | Meaning |
 |---|---|
-| Security | Higher score means stronger protection. |
+| Security | Higher score means stronger account protection. |
 | Cost | Higher score means more expensive to implement or operate. |
 | Friction | Higher score means more inconvenience for the user. |
 | Complexity | Higher score means harder to implement and maintain. |
@@ -33,7 +35,7 @@ Each strategy is scored from `1` to `10` across four dimensions.
 | Strategy | Security | Cost | Friction | Complexity | Explanation |
 |---|---:|---:|---:|---:|---|
 | Password Only | 2 | 1 | 1 | 1 | Easy and cheap, but weakest security. |
-| SMS MFA | 5 | 3 | 4 | 3 | Better than password only, but vulnerable to SIM-swapping and phishing. |
+| SMS MFA | 5 | 3 | 4 | 3 | Better than password only, but weaker than app-based MFA and passwordless methods. |
 | App MFA | 7 | 4 | 5 | 4 | Stronger than SMS MFA and commonly used in enterprise environments. |
 | Passwordless | 9 | 6 | 3 | 7 | Strong security and lower user friction after setup, but more complex to implement. |
 
@@ -64,26 +66,65 @@ The default weights are:
 | Friction | 0.20 |
 | Complexity | 0.10 |
 
-These weights prioritize security while still considering cost, convenience, and implementation difficulty.
+The weights must add up to `1.0`.
 
-## Why Security Has the Highest Weight
+## Adjustable Priorities
 
-Security receives the highest weight because the purpose of the system is to prevent suspicious or dangerous logins. However, cost and friction are still included because the strongest security option is not always the best choice for every login.
+The optimizer supports adjustable priorities. This allows different organizations to make different tradeoffs.
 
-For example, requiring passwordless authentication for every low-risk login may be unnecessary and inconvenient. But requiring stronger authentication for high-risk or critical-risk logins makes sense.
+For example, a bank may prioritize security more heavily, while a small company may care more about cost and implementation simplicity.
+
+## Organization Profiles
+
+The project includes four organization profiles.
+
+| Profile | Security Weight | Cost Weight | Friction Weight | Complexity Weight | Reasoning |
+|---|---:|---:|---:|---:|---|
+| Small Company | 0.40 | 0.30 | 0.20 | 0.10 | Balances security with limited budget. |
+| Bank | 0.70 | 0.10 | 0.10 | 0.10 | Prioritizes security because account compromise has high impact. |
+| School | 0.45 | 0.25 | 0.20 | 0.10 | Balances student usability, cost, and reasonable security. |
+| Technology Company | 0.60 | 0.10 | 0.15 | 0.15 | Prioritizes strong security and can handle more technical complexity. |
 
 ## Risk-Based Strategy Selection
 
-The optimizer can also use the login risk level to narrow the available authentication options.
+The optimizer uses the login risk level to limit which strategies are allowed.
 
-| Risk Level | Allowed Strategy Options |
-|---|---|
-| Low | Password Only, SMS MFA |
-| Medium | SMS MFA, App MFA |
-| High | App MFA, Passwordless |
-| Critical | Passwordless |
+| Risk Level | Allowed Options | Recommended Action |
+|---|---|---|
+| Low | Password Only, SMS MFA | Allow login or use lightweight authentication |
+| Medium | SMS MFA, App MFA | Require MFA |
+| High | App MFA, Passwordless | Require stronger MFA or passwordless authentication |
+| Critical | Block Login | Block login or require additional identity verification |
 
 This makes the optimizer risk-aware. Low-risk logins can use simpler authentication, while high-risk and critical-risk logins require stronger protection.
+
+## Explanatory Outputs
+
+The optimizer returns an explanation with each recommendation. The explanation includes:
+
+- The risk level
+- The selected authentication strategy
+- The recommended action
+- The strategy score
+- The weights used
+- The reason the selected strategy ranked highest
+
+For critical-risk logins, the explanation states that the login should be blocked or require additional identity verification.
+
+## Scenario Testing
+
+The optimizer is tested across four organization scenarios:
+
+- Small company
+- Bank
+- School
+- Technology company
+
+Each scenario uses different weights to reflect different priorities. The scenario results are saved to:
+
+```text
+data/processed/authentication_scenario_results.csv
+```
 
 ## Example Calculation
 
@@ -114,10 +155,25 @@ optimization_score = 3.5 - 0.8 - 1.0 - 0.4
 optimization_score = 1.3
 ```
 
-The optimizer calculates this score for each allowed strategy and selects the strategy with the highest score.
+The optimizer calculates this score for each allowed strategy and selects the allowed strategy with the highest score.
+
+## Unit Tests
+
+The authentication optimizer includes tests for:
+
+- Risk-level strategy mapping
+- Critical-risk blocking
+- Weight validation
+- Invalid weight totals
+- Negative weights
+- Missing weight keys
+- Organization profiles
+- Weighting preferences
+- Edge cases
+- Explanatory outputs
 
 ## Limitations
 
-The current strategy scores are manually defined. They are reasonable assumptions for an educational cybersecurity project, but real organizations may assign different scores depending on their technology stack, security requirements, user population, and budget.
+The current strategy scores are manually defined. They are reasonable assumptions for an educational cybersecurity project, but real organizations may score each method differently depending on their technology stack, security requirements, user population, and budget.
 
-Future versions can improve the optimizer by using real cost data, user behavior data, security incident history, and organization-specific risk tolerance.
+The optimizer does not currently use real financial cost data, live security incident data, or real user feedback. Future versions can improve the optimizer by using real cost estimates, user behavior data, security incident history, and organization-specific risk tolerance.
